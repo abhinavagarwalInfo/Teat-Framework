@@ -30,6 +30,10 @@ public class BasePage {
 		driver.get(ConfigLoader.getInstance().getBaseUrl() + endPoint);
 	}
 
+	public String getURL(){
+		return driver.getCurrentUrl();
+	}
+
 	public void waitForOverlaysToDisappear(By overlay) {
 		List<WebElement> overlays = driver.findElements(overlay);
 		System.out.println("OVERLAY SIZE" + overlays.size());

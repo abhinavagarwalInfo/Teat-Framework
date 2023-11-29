@@ -31,6 +31,12 @@ public class LoginPage extends BasePage{
     @FindBy(id = "otp-verify-btn")
     private WebElement verifyOTPButton;
 
+    @FindBy(id = "otp-error")
+    private WebElement incorrectOTP;
+
+    @FindBy(id = "continue-watching-text")
+    private WebElement cwRail;
+
     public LoginPage(WebDriver driver) {
         super(driver);
     }
@@ -64,5 +70,9 @@ public class LoginPage extends BasePage{
 
     public void load() {
         driver.get(ConfigLoader.getInstance().getBaseUrl());
+    }
+
+    public String getCWRailText(){
+        return getElementText(cwRail);
     }
 }

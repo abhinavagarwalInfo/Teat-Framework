@@ -9,4 +9,4 @@
       Then Verify "<Page>"
       Examples:
       | Mobile_Number | otp | Page|
-      |9818533677     | 1111 | Home |
+      |9818533671     | 1111 | Home |

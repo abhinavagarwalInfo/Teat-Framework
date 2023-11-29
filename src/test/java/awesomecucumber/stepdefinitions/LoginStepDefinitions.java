@@ -33,6 +33,7 @@ public class LoginStepDefinitions {
 
         @Then("Verify {string}")
         public void verify(String string) {
-            Assert.assertTrue(true);
+            Assert.assertEquals(login.getURL(),"https://www.airtelxstream.in/");
+            Assert.assertEquals(login.getCWRailText(),"Continue Watching");
         }
 }
