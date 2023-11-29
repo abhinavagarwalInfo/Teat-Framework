@@ -1,0 +1,217 @@
+
+	<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+		<modelVersion>4.0.0</modelVersion>
+		<groupId>com.learning</groupId>
+		<artifactId>MasterSeleniumFramework_BDD</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+
+		<properties>
+			<maven.surefire.plugin.version>3.0.0-M5</maven.surefire.plugin.version>
+			<!--	The default thread count of the dataprovider in parallel mode is 10-->
+			<dataproviderthreadcount.value>1</dataproviderthreadcount.value>
+			<maven.compiler.source>8</maven.compiler.source>
+			<maven.compiler.target>8</maven.compiler.target>
+			<!--        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> -->
+			<cucumber.version>7.11.0</cucumber.version>
+			<selenium.version>4.15.0</selenium.version>
+			<webdrivermanager.version>5.6.2</webdrivermanager.version>
+			<rest.assured.version>4.4.0</rest.assured.version>
+			<jackson.databind.version>2.13.1</jackson.databind.version>
+			<zt.zp.version>1.12</zt.zp.version>
+			<javax.mail.version>1.6.2</javax.mail.version>
+			<aspectj.version>1.9.6</aspectj.version>
+<!--			<allure.results.directory>target/allure-results</allure.results.directory>-->
+
+		</properties>
+
+		<build>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<configuration>
+						<source>17</source> <!--For JAVA 8 use 1.8-->
+						<target>17</target> <!--For JAVA 8 use 1.8-->
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>${maven.surefire.plugin.version}</version>
+
+					<configuration>
+						<properties>
+							<property>
+								<name>dataproviderthreadcount</name>
+								<!--	The default thread count of the dataprovider in parallel mode is 10-->
+								<value>${dataproviderthreadcount.value}</value>
+							</property>
+						</properties>
+						<!--	    <parallel>methods</parallel>
+                        <threadCount>3</threadCount>-->
+						<argLine>
+							-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+						</argLine>
+
+<!--						<systemProperties>-->
+<!--							<property>-->
+<!--								<name>allure.results.directory</name>-->
+<!--								<value>${allure.results.directory}</value>-->
+<!--							</property>-->
+<!--						</systemProperties>-->
+
+					</configuration>
+					<dependencies>
+						<dependency>
+							<groupId>org.aspectj</groupId>
+							<artifactId>aspectjweaver</artifactId>
+							<version>${aspectj.version}</version>
+						</dependency>
+					</dependencies>
+				</plugin>
+			</plugins>
+		</build>
+
+<!--		<reporting>-->
+<!--			<excludeDefaults>true</excludeDefaults>-->
+<!--			<plugins>-->
+<!--				<plugin>-->
+<!--					<groupId>io.qameta.allure</groupId>-->
+<!--					<artifactId>allure-maven</artifactId>-->
+<!--					<version>2.10.2</version>-->
+<!--					<configuration>-->
+<!--						<reportVersion>2.17.2</reportVersion>-->
+<!--						<outputDirectory>${basedir}/target/allure-reports/</outputDirectory>-->
+<!--						<allureResultsDirectory>${basedir}/target/allure-results</allureResultsDirectory>-->
+<!--					</configuration>-->
+<!--				</plugin>-->
+<!--			</plugins>-->
+<!--		</reporting>-->
+
+		<dependencies>
+
+			<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+			<dependency>
+				<groupId>io.cucumber</groupId>
+				<artifactId>cucumber-java</artifactId>
+				<version>${cucumber.version}</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+			<dependency>
+				<groupId>io.cucumber</groupId>
+				<artifactId>cucumber-testng</artifactId>
+				<version>${cucumber.version}</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+			<dependency>
+				<groupId>io.cucumber</groupId>
+				<artifactId>cucumber-picocontainer</artifactId>
+				<version>${cucumber.version}</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+			<dependency>
+				<groupId>org.seleniumhq.selenium</groupId>
+				<artifactId>selenium-java</artifactId>
+				<version>${selenium.version}</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+			<dependency>
+				<groupId>io.github.bonigarcia</groupId>
+				<artifactId>webdrivermanager</artifactId>
+				<version>${webdrivermanager.version}</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+			<dependency>
+				<groupId>io.rest-assured</groupId>
+				<artifactId>rest-assured</artifactId>
+				<version>${rest.assured.version}</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+			<dependency>
+				<groupId>com.fasterxml.jackson.core</groupId>
+				<artifactId>jackson-databind</artifactId>
+				<version>${jackson.databind.version}</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/me.jvt.cucumber/reporting-plugin -->
+			<dependency>
+				<groupId>me.jvt.cucumber</groupId>
+				<artifactId>reporting-plugin</artifactId>
+				<version>${cucumber.version}</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/org.zeroturnaround/zt-zip -->
+			<dependency>
+				<groupId>org.zeroturnaround</groupId>
+				<artifactId>zt-zip</artifactId>
+				<version>${zt.zp.version}</version>
+			</dependency>
+
+			<!--https://mvnrepository.com/artifact/com.sun.mail/javax.mail/		 -->
+			<dependency>
+				<groupId>com.sun.mail</groupId>
+				<artifactId>javax.mail</artifactId>
+				<version>${javax.mail.version}</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+			<dependency>
+				<groupId>com.aventstack</groupId>
+				<artifactId>extentreports</artifactId>
+				<version>3.1.5</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-cucumber7-jvm -->
+			<dependency>
+				<groupId>io.qameta.allure</groupId>
+				<artifactId>allure-cucumber7-jvm</artifactId>
+				<version>2.24.0</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.testng</groupId>
+				<artifactId>testng</artifactId>
+				<version>7.8.0</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+			<dependency>
+				<groupId>org.apache.logging.log4j</groupId>
+				<artifactId>log4j-api</artifactId>
+				<version>2.22.0</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+			<dependency>
+				<groupId>org.apache.logging.log4j</groupId>
+				<artifactId>log4j-core</artifactId>
+				<version>2.22.0</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/ru.yandex.qatools.allure/allure-report-builder -->
+			<dependency>
+				<groupId>ru.yandex.qatools.allure</groupId>
+				<artifactId>allure-report-builder</artifactId>
+				<version>2.3</version>
+			</dependency>
+
+
+		</dependencies>
+
+<!--		<reporting>-->
+<!--			<excludeDefaults>true</excludeDefaults>-->
+<!--			<plugins>-->
+<!--				<plugin>-->
+<!--					<groupId>ru.yandex.qatools.allure</groupId>-->
+<!--					<artifactId>allure-maven-plugin</artifactId>-->
+<!--					<version>2.6</version>-->
+<!--				</plugin>-->
+<!--			</plugins>-->
+<!--		</reporting>-->
+	</project>

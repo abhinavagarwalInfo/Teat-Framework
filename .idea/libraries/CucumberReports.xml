@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CucumberReports">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CucumberReports.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,423 @@
+13:32:55.998 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Started
+13:33:01.836 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+13:33:03.843 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+13:33:04.091 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+16:40:30.743 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Started
+16:40:37.864 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+16:40:38.637 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+16:40:40.232 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+16:43:06.301 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Started
+16:43:12.478 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+16:43:13.690 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+16:43:14.357 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+16:45:41.820 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Started
+16:45:47.005 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+16:45:48.872 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+16:45:51.050 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+16:54:58.916 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Started
+16:55:05.255 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+16:55:06.401 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+16:55:08.488 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+16:56:05.834 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+16:56:11.288 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+16:56:12.745 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+16:56:13.316 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+16:58:43.987 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+16:58:48.985 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+16:58:52.383 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+16:58:52.675 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+17:13:44.091 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+17:13:50.577 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+17:13:52.553 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+17:13:52.863 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+17:44:47.970 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+17:44:53.877 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+17:44:55.777 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+17:44:58.294 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+19:19:48.954 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Started
+19:19:57.627 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+19:19:59.747 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+19:19:59.810 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+19:32:25.105 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+19:32:31.023 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+19:32:33.829 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+19:32:34.056 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+19:34:05.385 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Started
+19:34:11.376 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+19:34:13.025 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+19:34:15.961 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+19:47:05.641 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+19:47:11.642 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+19:47:13.520 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+19:47:13.946 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+19:52:18.648 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+19:52:24.369 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+19:52:26.859 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+19:52:27.014 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+23:09:59.759 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Started
+23:10:06.929 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+23:10:08.730 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+23:10:08.759 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+23:15:00.178 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+23:15:05.928 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+23:15:07.511 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+23:15:08.873 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+23:33:23.633 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+23:33:29.267 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+23:33:31.929 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+23:33:32.716 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+23:35:32.581 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Started
+23:35:38.048 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+23:35:40.290 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+23:35:42.254 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+23:38:45.778 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Started
+23:38:51.083 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+23:40:55.211 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+23:41:06.953 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+23:46:12.470 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Started
+23:46:17.705 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+23:46:20.364 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+23:46:20.471 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+23:59:26.785 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Started
+23:59:32.298 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+23:59:34.663 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+23:59:35.016 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:09:56.902 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+00:10:02.269 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:10:07.967 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:10:08.149 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:11:15.777 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Started
+00:11:23.700 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:11:23.718 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:11:24.325 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:13:04.827 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+00:13:10.393 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:13:12.418 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:13:16.465 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:17:20.423 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Started
+00:17:25.663 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:17:27.500 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:17:29.341 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:21:04.306 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+00:21:09.367 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:21:12.154 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:21:12.252 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:25:49.600 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Started
+00:25:54.752 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:25:56.406 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:25:56.489 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:31:16.167 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+00:31:21.251 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:31:23.700 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:31:23.799 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:34:44.224 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Started
+00:34:49.637 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:34:51.638 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:34:52.053 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:38:23.086 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+00:38:30.014 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:38:33.216 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:38:34.802 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:45:36.114 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+00:45:41.622 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:45:44.682 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:45:44.917 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:54:12.414 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Started
+00:54:23.599 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:54:25.756 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:54:26.014 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:54:34.248 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+00:54:35.943 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+00:54:41.593 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+01:01:50.582 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Started
+01:02:03.438 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+01:02:04.989 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+01:02:06.163 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+01:02:13.725 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+01:02:14.132 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+01:02:17.690 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+01:02:48.024 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Started
+01:02:57.965 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+01:03:00.213 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+01:03:01.132 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+01:03:10.486 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+01:03:10.706 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+01:03:15.604 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+23:24:51.456 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Started
+23:25:04.369 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+23:25:09.199 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+23:25:09.199 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+23:25:13.733 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+23:25:15.690 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+23:25:28.503 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+23:32:08.155 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Started
+23:32:18.839 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+23:32:25.277 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+23:32:27.114 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+23:32:30.059 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+23:32:31.249 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+23:32:35.050 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+23:36:01.549 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Started
+23:36:11.591 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+23:36:14.487 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+23:36:14.594 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+23:36:23.149 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+23:36:23.295 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+23:36:35.135 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+23:48:47.611 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Started
+23:48:57.885 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+23:49:04.085 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+23:49:04.652 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+23:49:28.564 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+23:49:28.958 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+23:49:29.880 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+23:52:03.508 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+23:52:14.199 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+23:52:25.297 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+23:52:29.250 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+23:52:30.575 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+23:52:32.975 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+23:52:52.862 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:08:47.389 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Started
+00:08:56.901 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:08:59.487 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:08:59.776 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:09:10.795 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+00:09:12.964 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+00:09:13.363 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+00:13:27.696 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Started
+00:13:39.637 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:13:41.590 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:13:50.359 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:13:51.853 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+00:14:30.081 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+00:15:28.142 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+00:30:35.599 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Started
+00:30:53.516 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:30:55.411 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:30:58.764 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:31:03.765 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+00:31:14.127 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+00:31:44.386 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+11:07:13.086 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Started
+11:07:25.299 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+11:07:28.471 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+11:07:28.599 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+11:07:36.315 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+11:07:36.503 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+11:07:41.646 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+11:51:20.688 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Started
+11:51:31.173 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+11:51:33.239 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+11:51:34.787 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+11:51:41.662 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+11:51:42.716 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+11:51:48.506 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+12:31:08.753 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Started
+12:31:20.185 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+12:31:21.121 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+12:31:21.211 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+12:31:29.758 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+12:31:29.956 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+12:31:36.363 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+17:47:13.844 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Started
+17:47:29.317 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+17:47:29.615 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+17:47:32.853 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+17:47:38.982 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+17:47:43.024 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+17:47:44.740 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+17:52:02.158 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Started
+17:52:10.217 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+17:52:12.586 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+17:52:12.591 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+17:52:18.115 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+17:52:18.390 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+17:52:21.779 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+18:13:44.987 [TestNG-PoolService-0] INFO  - Scenario Name Add the product to the cart Started
+18:14:40.728 [TestNG-PoolService-1] INFO  - Scenario Name Add the product to the cart Ended
+18:14:41.794 [TestNG-PoolService-0] INFO  - Scenario Name Add the product to the cart Ended
+23:43:07.327 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Started
+23:43:18.307 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+23:43:20.093 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+23:43:20.379 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+23:43:26.446 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+23:43:26.752 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+23:43:31.315 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+23:46:23.091 [main] INFO  - Scenario Name Add one quantity from Store Started
+23:46:31.520 [main] INFO  - Scenario Name Add one quantity from Store Ended
+23:46:31.781 [main] INFO  - Scenario Name Add one quantity from Store Started
+23:46:36.711 [main] INFO  - Scenario Name Add one quantity from Store Ended
+23:46:36.854 [main] INFO  - Scenario Name Add the product already in the cart Started
+23:46:46.118 [main] INFO  - Scenario Name Add the product already in the cart Ended
+23:46:46.290 [main] INFO  - Scenario Name Add the product already in the cart Started
+23:46:58.040 [main] INFO  - Scenario Name Add the product already in the cart Ended
+23:46:58.186 [main] INFO  - Scenario Name Show an error when try to add zero quantity Started
+23:47:02.148 [main] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+23:47:02.633 [main] INFO  - Scenario Name using default payment option Started
+23:47:13.290 [main] INFO  - Scenario Name using default payment option Ended
+23:50:26.900 [main] INFO  - Scenario Name Add one quantity from Store Started
+23:50:34.312 [main] INFO  - Scenario Name Add one quantity from Store Ended
+23:50:34.576 [main] INFO  - Scenario Name Add one quantity from Store Started
+23:50:39.764 [main] INFO  - Scenario Name Add one quantity from Store Ended
+23:50:39.895 [main] INFO  - Scenario Name Add the product already in the cart Started
+23:50:50.428 [main] INFO  - Scenario Name Add the product already in the cart Ended
+23:50:50.587 [main] INFO  - Scenario Name Add the product already in the cart Started
+23:50:57.989 [main] INFO  - Scenario Name Add the product already in the cart Ended
+23:50:58.171 [main] INFO  - Scenario Name Show an error when try to add zero quantity Started
+23:51:01.283 [main] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+23:51:01.747 [main] INFO  - Scenario Name using default payment option Started
+23:51:11.162 [main] INFO  - Scenario Name using default payment option Ended
+23:51:59.911 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Started
+23:52:07.673 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+23:52:08.879 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+23:52:09.141 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+23:52:14.230 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+23:52:15.332 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+23:52:20.096 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+00:02:36.409 [TestNG-PoolService-5] INFO  - Scenario Name Show a Banner when I add to cart Started
+00:02:45.685 [TestNG-PoolService-3] INFO  - Scenario Name Change the product quantity using arrows Ended
+00:02:46.093 [TestNG-PoolService-2] INFO  - Scenario Name Change the product quantity using arrows Ended
+00:02:46.233 [TestNG-PoolService-4] INFO  - Scenario Name Change the product quantity using arrows Ended
+00:02:47.625 [TestNG-PoolService-5] INFO  - Scenario Name Show a Banner when I add to cart Ended
+00:02:48.427 [TestNG-PoolService-1] INFO  - Scenario Name Add the product to the cart Ended
+00:02:49.187 [TestNG-PoolService-0] INFO  - Scenario Name Add the product to the cart Ended
+00:02:57.817 [TestNG-PoolService-6] INFO  - Scenario Name using default payment option Ended
+00:06:34.191 [TestNG-PoolService-1] INFO  - Scenario Name Add the product to the cart Started
+00:06:41.585 [TestNG-PoolService-1] INFO  - Scenario Name Add the product to the cart Ended
+00:06:42.336 [TestNG-PoolService-0] INFO  - Scenario Name Add the product to the cart Ended
+00:11:07.079 [TestNG-PoolService-0] INFO  - Scenario Name Show a Banner when I add to cart Started
+00:11:12.967 [TestNG-PoolService-0] INFO  - Scenario Name Show a Banner when I add to cart Ended
+00:22:08.203 [TestNG-PoolService-0] INFO  - Scenario Name Show a Banner when I add to cart Started
+00:22:16.580 [TestNG-PoolService-0] INFO  - Scenario Name Show a Banner when I add to cart Ended
+00:45:12.958 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Started
+00:45:22.866 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:45:25.556 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:45:25.599 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:45:32.048 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+00:45:32.694 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+00:45:37.374 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+00:51:38.970 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+00:51:47.948 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:51:49.667 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:51:50.272 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:51:57.128 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+00:51:58.258 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+00:52:01.591 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+01:38:48.249 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Started
+01:38:56.816 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+01:39:01.751 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+01:39:02.384 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+01:39:05.877 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+01:39:06.464 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+01:39:09.813 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+02:05:49.292 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Started
+02:06:00.370 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+02:06:02.118 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+02:06:03.547 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+02:06:07.985 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+02:06:08.341 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+02:06:11.440 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+02:08:42.831 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Started
+02:08:50.957 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+02:08:53.625 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+02:08:53.629 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+02:08:59.313 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+02:09:00.139 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+02:09:04.662 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+02:11:41.508 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Started
+02:11:49.802 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+02:11:52.522 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+02:11:52.645 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+02:11:58.495 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+02:11:58.751 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+02:12:02.454 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+02:13:32.855 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Started
+02:13:42.882 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+02:13:45.282 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+02:13:45.608 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+02:13:51.265 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+02:13:51.955 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+02:13:54.628 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+02:15:41.340 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Started
+02:15:51.698 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+02:15:54.108 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+02:15:55.069 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+02:16:02.318 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+02:16:02.476 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+02:16:09.077 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+22:42:40.501 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Started
+22:42:55.616 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+22:42:58.486 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+22:42:58.889 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+22:43:03.977 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+22:43:05.351 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+22:43:08.749 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+22:51:53.302 [TestNG-PoolService-0] INFO  - Scenario Name using default payment option Started
+22:52:08.473 [TestNG-PoolService-0] INFO  - Scenario Name using default payment option Ended
+23:32:38.247 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+23:32:48.584 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+23:32:49.587 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+23:32:51.526 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+23:32:57.648 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+23:32:58.203 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+23:33:01.366 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+00:07:50.750 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+00:08:00.350 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:08:02.136 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:08:03.516 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:08:08.462 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+00:08:08.905 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+00:08:11.831 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+00:09:05.558 [main] INFO  - Scenario Name Show an error when try to add zero quantity Started
+00:09:10.153 [main] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:25:32.272 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Started
+00:25:40.524 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:25:42.601 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:25:44.914 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:25:48.663 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+00:25:49.085 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+00:25:54.208 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+00:26:07.765 [main] INFO  - Scenario Name Show an error when try to add zero quantity Started
+00:26:11.332 [main] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:29:18.565 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Started
+00:29:26.603 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:29:28.952 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:29:29.906 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:29:34.155 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+00:29:35.894 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+00:29:38.268 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+00:29:50.396 [main] INFO  - Scenario Name Show an error when try to add zero quantity Started
+00:29:54.038 [main] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:41:43.314 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Started
+00:41:52.402 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:41:54.428 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:41:55.088 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:42:04.239 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+00:42:05.311 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+00:42:10.223 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+00:42:25.120 [main] INFO  - Scenario Name Show an error when try to add zero quantity Started
+00:42:28.632 [main] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:46:23.899 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Started
+00:46:32.665 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:46:34.493 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:46:35.334 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:46:42.760 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+00:46:43.282 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+00:46:48.213 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+00:47:03.353 [main] INFO  - Scenario Name Show an error when try to add zero quantity Started
+00:47:06.916 [main] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:51:10.306 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Started
+00:51:17.898 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:51:20.698 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:51:22.777 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:51:26.299 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+00:51:26.577 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+00:51:29.565 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
+00:53:07.115 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+00:53:14.577 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+00:53:17.181 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+00:53:17.225 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+00:53:24.955 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+00:53:25.849 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+00:53:29.432 [TestNG-PoolService-5] INFO  - Scenario Name using default payment option Ended
