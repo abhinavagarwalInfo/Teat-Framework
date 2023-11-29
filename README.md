@@ -1,4 +1,4 @@
-# MasterSeleniumFramework_BDD
+# Test-Framework
 With further updates - This project is designed and developed with the help of -
 1. Udemy course (OmPrakash Chavan - Cucumber BDD Masterclass with Selenium WebDriver & Java) - 
 [Learnings From Course.pdf](https://github.com/rajatt95/MasterSeleniumFramework_BDD/files/7998307/Learnings.From.Course.pdf)
