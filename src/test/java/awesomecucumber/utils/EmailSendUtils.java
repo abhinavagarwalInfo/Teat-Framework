@@ -22,7 +22,7 @@ public class EmailSendUtils {
 		System.out.println("Email send - START");
 		System.out.println("****************************************");
 
-		if (ConfigLoader.getInstance().getSendEmailToUsers().equalsIgnoreCase(NO)) {
+		if (ConfigLoader.getInstance().getSendEmailToUsers().equalsIgnoreCase(YES)) {
 			System.out.println("File name: " + REPORTS_CUCUMBER_LOCAL);
 			String messageBody = getTestCasesCountInFormat();
 			System.out.println(messageBody);

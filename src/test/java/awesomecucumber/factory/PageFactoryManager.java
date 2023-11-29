@@ -1,12 +1,8 @@
 
 package awesomecucumber.factory;
 
+import awesomecucumber.pages.*;
 import org.openqa.selenium.WebDriver;
-
-import awesomecucumber.pages.CartPage;
-import awesomecucumber.pages.CheckoutPage;
-import awesomecucumber.pages.ProductPage;
-import awesomecucumber.pages.StorePage;
 
 public class PageFactoryManager {
 
@@ -14,6 +10,7 @@ public class PageFactoryManager {
     private static CartPage cartPage;
     private static CheckoutPage checkoutPage;
     private static ProductPage productPage;
+	private static LoginPage loginPage;
 
 	public static StorePage getStorePage(WebDriver driver) {
 		/**
@@ -36,5 +33,9 @@ public class PageFactoryManager {
 
 	public static ProductPage getProductPage(WebDriver driver) {
 		return productPage == null ? new ProductPage(driver) : productPage;
+	}
+
+	public static LoginPage getLoginPage(WebDriver driver) {
+		return loginPage == null ? new LoginPage(driver) : loginPage;
 	}
 }

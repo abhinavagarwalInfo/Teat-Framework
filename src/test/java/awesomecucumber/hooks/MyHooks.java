@@ -69,8 +69,8 @@ public class MyHooks {
 		 */
 //		driver = DriverFactory.initializeDriver(System.getProperty("browser", "edge"));
 		// driver = DriverFactory.initializeDriver(System.getProperty(PARAMETER_BROWSER,BROWSER_FIREFOX));
-		//driver = DriverFactory.initializeDriver(System.getProperty(PARAMETER_BROWSER, BROWSER_CHROME));
-		driver = DriverFactory.initializeDriver(System.getProperty(PARAMETER_BROWSER, BROWSER_HEADLESS));
+		driver = DriverFactory.initializeDriver(System.getProperty(PARAMETER_BROWSER, BROWSER_CHROME));
+		//driver = DriverFactory.initializeDriver(System.getProperty(PARAMETER_BROWSER, BROWSER_HEADLESS));
 		//driver = DriverFactory.initializeDriver(System.getProperty(PARAMETER_BROWSER, BROWSER_EDGE));
 		// driver = DriverFactory.initializeDriver(System.getProperty(PARAMETER_BROWSER,BROWSER_OPERA));
 		// driver = DriverFactory.initializeDriver(System.getProperty(PARAMETER_BROWSER,BROWSER_SAFARI));
