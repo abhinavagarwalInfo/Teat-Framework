@@ -37,13 +37,12 @@ public class LoginStepDefinitions {
             Assert.assertEquals(login.getCWRailText(),"Continue Watching");
         }
 
-    @Then("Scroll the page till end")
-    public void scrollThePageTillEnd() throws InterruptedException {
-        Thread.sleep(5000);
-        //login.scrollTo();
-        //login.scrollDownByDefiningNumberOfPixels(10,500);
-        login.scrollDownToBottom();
-        Thread.sleep(5000);
-
-    }
+        @Then("Scroll the page till end")
+        public void scrollThePageTillEnd() throws InterruptedException {
+            Thread.sleep(5000);
+            //login.scrollTo();
+            //login.scrollDownByDefiningNumberOfPixels(10,500);
+            login.scrollDownToBottom();
+            Thread.sleep(5000);
+        }
 }

@@ -8,7 +8,7 @@
 		<properties>
 			<maven.surefire.plugin.version>3.0.0-M5</maven.surefire.plugin.version>
 			<!--	The default thread count of the dataprovider in parallel mode is 10-->
-			<dataproviderthreadcount.value>1</dataproviderthreadcount.value>
+			<dataproviderthreadcount.value>2</dataproviderthreadcount.value>
 			<maven.compiler.source>8</maven.compiler.source>
 			<maven.compiler.target>8</maven.compiler.target>
 			<!--        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> -->
@@ -47,8 +47,8 @@
 								<value>${dataproviderthreadcount.value}</value>
 							</property>
 						</properties>
-						<!--	    <parallel>methods</parallel>
-                        <threadCount>3</threadCount>-->
+						<parallel>methods</parallel>
+                        <threadCount>3</threadCount>
 						<argLine>
 							-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
 						</argLine>

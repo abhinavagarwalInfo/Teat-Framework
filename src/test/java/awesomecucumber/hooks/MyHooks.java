@@ -51,7 +51,7 @@ public class MyHooks {
 
 	@Before
 	//@BeforeMethod
-	public void before(Scenario scenario) {
+	public synchronized void before(Scenario scenario) {
 
 		 //ExtentReport.createTest(scenario.getName());
 
@@ -80,7 +80,7 @@ public class MyHooks {
 
 	@After
 	//@AfterMethod
-	public void after(Scenario scenario) {
+	public synchronized void after(Scenario scenario) {
 		System.out.println(
 				"AFTER: THREAD ID : " + Thread.currentThread().getId() + "," + "SCENARIO NAME: " + scenario.getName());
 

@@ -1,2 +1,26 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Dec 01 17:29:54 IST 2023","Fri Dec 01 17:30:13 IST 2023","18989","","Login to application","","Login with valid credentials","","Login with valid credentials",""
+"passed","Fri Dec 01 21:16:50 IST 2023","Fri Dec 01 21:16:58 IST 2023","7932","","Add to cart","","Add the product already in the cart","","Add the product already in the cart","  As a customer of AskOmDch app,
+  I should be able to add product(s) to the cart,
+  So that I can purchase them"
+"failed","Fri Dec 01 21:16:58 IST 2023","Fri Dec 01 21:17:02 IST 2023","4119","","Add to cart","","Show an error when try to add zero quantity","","Show an error when try to add zero quantity","  As a customer of AskOmDch app,
+  I should be able to add product(s) to the cart,
+  So that I can purchase them"
+"passed","Fri Dec 01 21:17:02 IST 2023","Fri Dec 01 21:17:06 IST 2023","3535","","Add to cart","","Change the product quantity using arrows","","Change the product quantity using arrows","  As a customer of AskOmDch app,
+  I should be able to add product(s) to the cart,
+  So that I can purchase them"
+"passed","Fri Dec 01 21:16:14 IST 2023","Fri Dec 01 21:16:35 IST 2023","20650","","Add to cart","","Add one quantity from Store","","Add one quantity from Store","  As a customer of AskOmDch app,
+  I should be able to add product(s) to the cart,
+  So that I can purchase them"
+"passed","Fri Dec 01 21:16:04 IST 2023","Fri Dec 01 21:16:14 IST 2023","9532","","Add to cart","","Add one quantity from Store","","Add one quantity from Store","  As a customer of AskOmDch app,
+  I should be able to add product(s) to the cart,
+  So that I can purchase them"
+"passed","Fri Dec 01 21:17:09 IST 2023","Fri Dec 01 21:17:12 IST 2023","2936","","Add to cart","","Change the product quantity using arrows","","Change the product quantity using arrows","  As a customer of AskOmDch app,
+  I should be able to add product(s) to the cart,
+  So that I can purchase them"
+"passed","Fri Dec 01 21:17:06 IST 2023","Fri Dec 01 21:17:09 IST 2023","3732","","Add to cart","","Change the product quantity using arrows","","Change the product quantity using arrows","  As a customer of AskOmDch app,
+  I should be able to add product(s) to the cart,
+  So that I can purchase them"
+"passed","Fri Dec 01 21:16:35 IST 2023","Fri Dec 01 21:16:50 IST 2023","15081","","Add to cart","","Add the product already in the cart","","Add the product already in the cart","  As a customer of AskOmDch app,
+  I should be able to add product(s) to the cart,
+  So that I can purchase them"
+"passed","Fri Dec 01 21:17:12 IST 2023","Fri Dec 01 21:17:25 IST 2023","12727","","Place an order","","using default payment option","","using default payment option",""

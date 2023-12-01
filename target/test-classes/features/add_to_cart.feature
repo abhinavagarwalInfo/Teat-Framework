@@ -49,7 +49,7 @@ Feature: Add to cart
       When I add 0 quantity
       Then I should see an error
 
-		@sanity
+		@sanity @smoke
     Scenario Outline: Change the product quantity using arrows
       Given I'm browsing "Blue Shoes"
       And the selected quantity is <currentQuantity>
