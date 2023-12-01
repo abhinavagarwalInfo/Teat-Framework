@@ -37,6 +37,9 @@ public class LoginPage extends BasePage{
     @FindBy(id = "continue-watching-text")
     private WebElement cwRail;
 
+    @FindBy(xpath = "//span[normalize-space()='Top 10 Movies']")
+    private WebElement top10Movies;
+
     public LoginPage(WebDriver driver) {
         super(driver);
     }
@@ -74,5 +77,9 @@ public class LoginPage extends BasePage{
 
     public String getCWRailText(){
         return getElementText(cwRail);
+    }
+
+    public void scrollTo(){
+        scrollToElement(top10Movies);
     }
 }

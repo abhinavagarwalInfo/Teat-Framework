@@ -200,13 +200,17 @@ public class MyHooks {
 
 //		Runtime.getRuntime().addShutdownHook(new Thread(() -> {
 //			try {
-//				new AllureReportBuilder("1.5.4", new File("/allure-report")).unpackFace();
+//				new AllureReportBuilder("2.24.0", new File("C:/Workspace/Webdriver-Framework/allure-report")).unpackFace();
+//				System.out.println("####unpackface#####");
 //			} catch (AllureReportBuilderException e) {
+//				System.out.println("####unpackface E#####");
 //				throw new RuntimeException(e);
 //			}
 //			try {
-//				new AllureReportBuilder("1.5.4", new File("/allure-report")).processResults(new File("/allure-results"));
+//				new AllureReportBuilder("1.5.4", new File("C:/Workspace/Webdriver-Framework/allure-report")).processResults(new File("C:/Workspace/Webdriver-Framework/allure-results"));
+//				System.out.println("####process#####");
 //			} catch (AllureReportBuilderException e) {
+//				System.out.println("####process E#####");
 //				throw new RuntimeException(e);
 //			}
 //		}));

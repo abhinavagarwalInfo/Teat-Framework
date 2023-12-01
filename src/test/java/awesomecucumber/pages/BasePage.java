@@ -15,6 +15,7 @@ import static awesomecucumber.constants.FrameworkConstants.EXPLICIT_WAIT;
 
 import java.time.Duration;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 public class BasePage {
 	protected WebDriver driver;
@@ -87,4 +88,31 @@ public class BasePage {
 		return waitForElementVisibility(element).getAttribute(customAttribute);
 	}
 
+	public void scrollDownByDefiningNumberOfPixels(int x, int y) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(x,y)", "");
+	}
+
+	public void ByVisibleElement(WebElement element){
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView();", element);
+	}
+
+	public void scrollDownToBottom(){
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+	}
+
+	public boolean isElementPresent(WebElement we){
+		try{
+			driver.findElement((By) we);
+			return true;
+		}catch (NoSuchElementException e){
+			return false;
+		}
+	}
+
+	public boolean isElementDisplayed(WebElement e){
+		return driver.findElement((By) e).isDisplayed();
+	}
 }
