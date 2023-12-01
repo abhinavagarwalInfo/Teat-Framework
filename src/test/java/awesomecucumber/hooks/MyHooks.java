@@ -15,6 +15,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import ru.yandex.qatools.allure.report.AllureReportBuilder;
 import ru.yandex.qatools.allure.report.AllureReportBuilderException;
 
@@ -28,6 +29,7 @@ import static awesomecucumber.utils.EmailSendUtils.sendEmail;
 public class MyHooks {
 
 	private WebDriver driver;
+	//private ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 	Logger log;
 	private final TestContext context;
 	public static List<String> passedtests = new ArrayList<String>();
@@ -43,6 +45,14 @@ public class MyHooks {
 	public MyHooks(TestContext context) {
 		this.context = context;
 	}
+
+//	public void setDriver(WebDriver driver){
+//		this.driver.set(driver);
+//	}
+//
+//	public WebDriver getDriver(){
+//		return this.driver.get();
+//	}
 
 //	@BeforeMethod
 //	public void configureTest(Method m){
