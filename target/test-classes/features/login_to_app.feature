@@ -1,7 +1,7 @@
 
   Feature: Login to application
 
-    @xyz
+    @login
     Scenario Outline: Login with valid credentials
       Given open app url
       When Click on SignIN button

@@ -629,3 +629,9 @@
 23:04:16.776 [TestNG-PoolService-0] INFO  - Scenario Name using default payment option Started
 23:04:18.370 [TestNG-PoolService-1] INFO  - Scenario Name Change the product quantity using arrows Ended
 23:04:28.191 [TestNG-PoolService-0] INFO  - Scenario Name using default payment option Ended
+22:54:42.559 [main] INFO  - Scenario Name Login with valid credentials Started
+22:54:53.447 [main] INFO  - Scenario Name Login with valid credentials Ended
+22:55:35.456 [main] INFO  - Scenario Name Login with valid credentials Started
+22:55:40.650 [main] INFO  - Scenario Name Login with valid credentials Ended
+22:56:18.196 [main] INFO  - Scenario Name Login with valid credentials Started
+22:56:35.009 [main] INFO  - Scenario Name Login with valid credentials Ended

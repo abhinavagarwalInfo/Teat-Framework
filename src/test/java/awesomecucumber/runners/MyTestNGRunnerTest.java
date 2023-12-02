@@ -23,7 +23,7 @@ import java.io.File;
 		glue = {"awesomecucumber"},
 		// glue = {"awesomecucumber.stepdefinitions","awesomecucumber.hooks"},
 		features = {"src/test/resources/features"},
-		tags = "@smoke",
+		tags = "@login",
 		monochrome = true)
 		//tags = "@regression")
 		//tags = "@demo")
@@ -42,7 +42,7 @@ public class MyTestNGRunnerTest extends AbstractTestNGCucumberTests {
 	 **/
 
 	@Override
-	@DataProvider(parallel = true)
+	@DataProvider(parallel = false)
 	public Object[][] scenarios() {
 		return super.scenarios();
 	}

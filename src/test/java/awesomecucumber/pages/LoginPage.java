@@ -4,6 +4,7 @@ import awesomecucumber.utils.ConfigLoader;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 public class LoginPage extends BasePage{
 
@@ -71,8 +72,11 @@ public class LoginPage extends BasePage{
         click(verifyOTPButton);
     }
 
-    public void load() {
+    public boolean load() {
         driver.get(ConfigLoader.getInstance().getBaseUrl());
+        String url = driver.getCurrentUrl();
+        Assert.assertTrue(url.contains("airtelxstream"));
+        return true;
     }
 
     public String getCWRailText(){
@@ -80,6 +84,7 @@ public class LoginPage extends BasePage{
     }
 
     public void scrollTo(){
+
         scrollToElement(top10Movies);
     }
 }

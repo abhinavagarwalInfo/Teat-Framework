@@ -17,7 +17,8 @@ public class LoginStepDefinitions {
     }
         @Given("open app url")
         public void open_app_url() {
-            login.load();
+//            login.load();
+            Assert.assertTrue(login.load());
         }
         @When("Click on SignIN button")
         public void click_on_sign_in_button() {
