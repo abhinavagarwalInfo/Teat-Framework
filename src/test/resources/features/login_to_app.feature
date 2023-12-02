@@ -1,10 +1,12 @@
-
+@regression
   Feature: Login to application
+
+    Background:
+      Given open app url
+      When Click on SignIN button
 
     @login
     Scenario Outline: Login with valid credentials
-      Given open app url
-      When Click on SignIN button
       And Put "<Mobile_Number>" and "<otp>"
       Then Scroll the page till end
       Then Verify "<Page>"

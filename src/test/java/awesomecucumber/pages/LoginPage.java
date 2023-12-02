@@ -83,8 +83,24 @@ public class LoginPage extends BasePage{
         return getElementText(cwRail);
     }
 
-    public void scrollTo(){
+//    public void scrollTo{
+////        waitForElementVisibility(rail);
+//        scrollToElement();
+//        waitForElementVisibility(top10Movies);
+//    }
 
+//    public void scrollToElement(String rail){
+////        waitForElementVisibility(rail);
+//        scrollToElement(rail);
+//        waitForElementVisibility(top10Movies);
+//    }
+
+//    public void scrollToelement(String rail) {
+//        scrollToElement(rail);
+//        waitForElementVisibility(top10Movies);
+//    }
+
+    public void scrollTo(){
         scrollToElement(top10Movies);
     }
 }

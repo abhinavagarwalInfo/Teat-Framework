@@ -9,8 +9,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static awesomecucumber.constants.FrameworkConstants.ATTRIBUTE_VALUE;
-import static awesomecucumber.constants.FrameworkConstants.EXPLICIT_WAIT;
+import static awesomecucumber.constants.FrameworkConstants.*;
+//import static awesomecucumber.constants.FrameworkConstants.EXPLICIT_WAIT;
 
 import java.time.Duration;
 import java.util.List;
@@ -103,6 +103,7 @@ public class BasePage {
 	}
 
 	public String getElementText(WebElement element) {
+
 		return waitForElementVisibility(element).getText();
 	}
 

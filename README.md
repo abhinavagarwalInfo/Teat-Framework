@@ -63,3 +63,9 @@ allure generate allure-results --clean -o allure-report
 1. Navigate to src/test/resources/config/prod_config.properties file
 2. Update baseUrl
 ------------------------------------------------------------
+**HOW TO USE CONSTENT IN OTHER FILES**
+import static awesomecucumber.constants.FrameworkConstants.*;
+import static awesomecucumber.constants.FrameworkConstants.EXPLICIT_WAIT;
+wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT));
+------------------------------------------------------------
+

@@ -36,4 +36,6 @@ public class FrameworkConstants {
 	public static final String REPORTS_CUCUMBER_LOCAL = REPORTS_CUCUMBER_LOCATION + "cucumber.html";
 	public static final String REPORTS_ZIPPED_FILE_NAME = "CucumberReports.zip";
 
+	public static final String MY_PHONE_NUMBER = "9953101848";
+
 }

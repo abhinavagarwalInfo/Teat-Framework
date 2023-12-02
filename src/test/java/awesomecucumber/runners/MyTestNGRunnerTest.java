@@ -23,7 +23,7 @@ import java.io.File;
 		glue = {"awesomecucumber"},
 		// glue = {"awesomecucumber.stepdefinitions","awesomecucumber.hooks"},
 		features = {"src/test/resources/features"},
-		tags = "@login",
+		tags = "@scrolling",
 		monochrome = true)
 		//tags = "@regression")
 		//tags = "@demo")

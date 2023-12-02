@@ -41,9 +41,16 @@ public class LoginStepDefinitions {
         @Then("Scroll the page till end")
         public void scrollThePageTillEnd() throws InterruptedException {
             Thread.sleep(5000);
-            //login.scrollTo();
-            //login.scrollDownByDefiningNumberOfPixels(10,500);
             login.scrollDownToBottom();
             Thread.sleep(5000);
         }
+
+    @Then("Scroll the page till element {string}")
+    public void scrollThePageTillElement(String rail) throws InterruptedException {
+        Thread.sleep(5000);
+//        login.scrollToElement(Top 10 Movies);
+//        login.waitForTextToBePresentInElement();
+        login.scrollTo();
+        Thread.sleep(5000);
+    }
 }
