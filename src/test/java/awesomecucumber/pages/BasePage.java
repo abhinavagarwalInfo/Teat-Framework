@@ -2,10 +2,9 @@
 package awesomecucumber.pages;
 
 import awesomecucumber.utils.ConfigLoader;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.html5.LocalStorage;
+import org.openqa.selenium.html5.WebStorage;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -62,6 +61,33 @@ public class BasePage {
 
 	public WebElement waitForElementVisibility(WebElement element) {
 		return wait.until(ExpectedConditions.visibilityOf(element));
+	}
+
+	public Boolean waitForElementInvisibility(WebElement element) {
+		return wait.until(ExpectedConditions.invisibilityOf(element));
+	}
+
+	public Boolean waitForTextToBePresentInElement(WebElement element, String text){
+		return wait.until(ExpectedConditions.textToBePresentInElement(element, text));
+	}
+
+	public Alert waitForAlertIsPresent(){
+		return wait.until(ExpectedConditions.alertIsPresent());
+	}
+
+	public void clearLocalStorage(){
+		LocalStorage ls = ((WebStorage)driver).getLocalStorage();
+		ls.clear();
+		sleep(1000);
+		driver.navigate().refresh();
+	}
+
+	public void sleep(int sTime){
+		try{
+			Thread.sleep(sTime);
+		}catch(InterruptedException e){
+			System.out.println(e);
+		}
 	}
 
 	public WebElement waitForElementToBeClickable(WebElement element) {
