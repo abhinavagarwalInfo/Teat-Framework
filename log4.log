@@ -629,3 +629,23 @@
 23:04:16.776 [TestNG-PoolService-0] INFO  - Scenario Name using default payment option Started
 23:04:18.370 [TestNG-PoolService-1] INFO  - Scenario Name Change the product quantity using arrows Ended
 23:04:28.191 [TestNG-PoolService-0] INFO  - Scenario Name using default payment option Ended
+13:31:01.178 [main] INFO  - Scenario Name Show an error when try to add zero quantity Started
+13:31:09.476 [main] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+13:31:27.550 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Started
+13:31:27.569 [TestNG-PoolService-7] INFO  - Scenario Name Change the product quantity using arrows Started
+13:31:27.584 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Started
+13:31:27.597 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Started
+13:31:27.604 [TestNG-PoolService-8] INFO  - Scenario Name using default payment option Started
+13:31:27.614 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Started
+13:31:27.635 [TestNG-PoolService-5] INFO  - Scenario Name Change the product quantity using arrows Started
+13:31:27.644 [TestNG-PoolService-6] INFO  - Scenario Name Change the product quantity using arrows Started
+13:31:27.648 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Started
+13:31:44.179 [TestNG-PoolService-7] INFO  - Scenario Name Change the product quantity using arrows Ended
+13:31:44.383 [TestNG-PoolService-4] INFO  - Scenario Name Show an error when try to add zero quantity Ended
+13:31:46.415 [TestNG-PoolService-5] INFO  - Scenario Name Change the product quantity using arrows Ended
+13:31:46.865 [TestNG-PoolService-6] INFO  - Scenario Name Change the product quantity using arrows Ended
+13:31:51.320 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
+13:31:51.844 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
+13:31:58.963 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
+13:32:02.434 [TestNG-PoolService-8] INFO  - Scenario Name using default payment option Ended
+13:32:03.117 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
