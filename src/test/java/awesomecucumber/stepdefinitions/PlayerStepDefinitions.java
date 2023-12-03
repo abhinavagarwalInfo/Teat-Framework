@@ -70,13 +70,14 @@ public class PlayerStepDefinitions {
     }
     @Then("^verify player backward functionality in streaming$")
     public void verify_player_backward_func_in_Streaming() throws ParseException, java.text.ParseException {
+        player.set_SeekBar_Thumb_In_Start();
         click_On_Keyboard_LeftArrow_Button("4");
         player.sleep(10);
 
     }
 //    @Then("^verify player backward functionality in streaming$")
 //    public void verify_player_backward_func_in_Streaming() throws ParseException {
-////        player.set_SeekBar_Thumb_In_End();
+//        player.set_SeekBar_Thumb_In_End();
 //        click_On_Keyboard_LeftArrow_Button("4");
 //        player.sleep(10);
 //        int backwardTime = player.verify_backward_button_functionality();

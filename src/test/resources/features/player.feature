@@ -18,7 +18,7 @@
       | Mobile_Number | otp | Page|
       |9818533677     | 1111 | Home |
 
-    @P0 @player
+    @P0 @player1
     Scenario Outline: Player KeyBoard Right Arrow button forward and backward
       And open app url with moview
       When Click on SignIN button on player page
@@ -33,7 +33,7 @@
         |9818533677     | 1111 | Home |
 
     @P0 @player
-    Scenario Outline: verify content buffering in full screen size when player in pause state for <contentType>
+    Scenario Outline: verify content buffering in full screen size when player in pause state
       And open app url with moview
       When Click on SignIN button on player page
       And Put "<Mobile_Number>" and "<otp>"

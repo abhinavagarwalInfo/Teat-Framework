@@ -59,6 +59,11 @@ public class PlayerPage extends BasePage{
 
     @FindBy(xpath = "//span[normalize-space()='Top 10 Movies']")
     private WebElement top10Movies;
+    @FindBy(id = "seekbar-current-time")
+    private WebElement seekbar_current_time_labell;
+    @FindBy(id = "seekbar-current-time")
+    private WebElement seekbar_end_time_labell;
+
 
     public PlayerPage(WebDriver driver) {
         super(driver);
@@ -88,17 +93,23 @@ public class PlayerPage extends BasePage{
         click(play_pause_bottom_controls);
     }
     public By seekbar_current_time_label = By.id("seekbar-current-time");
-    public String get_player_Thumb_Current_Time() {
+
+    public String getCWText() {
+        System.out.println("cwText>>"+getElementText(seekbar_current_time_labell));
+        return getElementText(seekbar_current_time_labell);
+    }
+    public String get_player_Thumb_Current_Timee() {
 //        sleep(5000);
         mouse_Hover(videoPlayer, true);
-        System.out.println("getText(seekbar_current_time_label)>>>>>>>"+ getText(By.id(String.valueOf(seekbar_current_time_label))));
-        return getText(By.id(String.valueOf(seekbar_current_time_label)));
+        System.out.println("getText(seekbar_current_time_label)>>>>>>>"+ getElementText(seekbar_current_time_labell));
+        return getElementText(seekbar_current_time_labell);
     }
-    public String getText(By locator, long... waitSeconds) {
-//        WebElement we = this.getElementWhenVisible(locator, waitSeconds);
+//    public String getText(By locator, long... waitSeconds) {
+//        WebElement we = this.getElementText(locator);
+//        WebElement we = this.getElementText(WebElement);
 //        return we == null ? null : we.getText();
-        return null;
-    }
+//        return null;
+//    }
     public int time_to_milliSec(String time) {
         String hours = StringUtils.substringBefore(time, ":");
         String second = StringUtils.substringAfterLast(time, ":");
@@ -126,18 +137,24 @@ public class PlayerPage extends BasePage{
         mouse_Hover(videoPlayer, true);
         fwd.click();
     }
-//    public String get_player_Thumb_Current_Time() {
-////        sleep(5000);
-//        mouse_Hover(videoPlayer, true);
-//        System.out.println("getText(seekbar_current_time_label)>>>>>>>"+ getText(String.valueOf(seekbar_current_time_label)));
-//        return getText(String.valueOf(seekbar_current_time_label));
-//    }
+    public String get_player_Thumb_Current_Time() {
+//        sleep(5000);
+        mouse_Hover(videoPlayer, true);
+        System.out.println("getText(seekbar_current_time_label)>>>>>>>"+ getElementText(seekbar_current_time_labell));
+        return getElementText(seekbar_current_time_labell);
+    }
 private By seekbar_end_time_label = By.id("seekbar-end-time");
-public String get_player_Thumb_End_Time() {
-    sleep(5000);
-    mouse_Hover(videoPlayer, true);
-    return getText(By.id(String.valueOf(seekbar_end_time_label)));
-}
+//public String get_player_Thumb_End_Time() {
+//    sleep(5000);
+//    mouse_Hover(videoPlayer, true);
+//    return getText(By.id(String.valueOf(seekbar_end_time_label)));
+//}
+
+    public String get_player_Thumb_End_Time() {
+        sleep(5000);
+        mouse_Hover(videoPlayer, true);
+        return getElementText(seekbar_end_time_labell);
+    }
 private By seekbar_Thumb = By.xpath("//div[@class='thumb']");
     public void set_SeekBar_Thumb_In_Start() {
 
@@ -208,12 +225,14 @@ private By seekbar_Thumb = By.xpath("//div[@class='thumb']");
     public int verify_forward_button_functionality() throws ParseException, java.text.ParseException {
         sleep(5000);
         mouse_Hover(videoPlayer, false);
-        String currentTime = getText(seekbar_current_time_label);
+//        String currentTime = getText(seekbar_current_time_label);
+        String currentTime = getElementText(seekbar_current_time_labell);
         System.out.println(currentTime);
         click_On_Forward_Button();
 
         mouse_Hover(videoPlayer, false);
-        String currentTime2 = getText(seekbar_current_time_label);
+//        String currentTime2 = getText(seekbar_current_time_label);
+        String currentTime2 = getElementText(seekbar_current_time_labell);
         System.out.println(currentTime2);
         return get_Time_diff_in_Sec(currentTime, currentTime2);
     }
@@ -221,11 +240,11 @@ private By seekbar_Thumb = By.xpath("//div[@class='thumb']");
     public int verify_backward_button_functionality() throws ParseException, java.text.ParseException {
         //  String currentTime = get_player_Thumb_Current_Time();
         mouse_Hover(videoPlayer, false);
-        String currentTime = getText(seekbar_current_time_label);
+        String currentTime = getElementText(seekbar_current_time_labell);
         click_On_BackWard_Button();
         //    String currentTime2 = get_player_Thumb_Current_Time();
         mouse_Hover(videoPlayer, false);
-        String currentTime2 = getText(seekbar_current_time_label);
+        String currentTime2 = getElementText(seekbar_current_time_labell);
         return get_Time_diff_in_Sec(currentTime, currentTime2);
     }
     public int get_Time_diff_in_Sec(String time1, String time2) throws ParseException, java.text.ParseException {

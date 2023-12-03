@@ -142,4 +142,6 @@ public class BasePage {
 	public boolean isElementDisplayed(WebElement e){
 		return driver.findElement((By) e).isDisplayed();
 	}
+
+
 }
