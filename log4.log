@@ -639,3 +639,39 @@
 23:09:11.455 [main] INFO  - Scenario Name Login with valid credentials Ended
 23:09:42.127 [main] INFO  - Scenario Name Login with valid credentials Started
 23:10:01.010 [main] INFO  - Scenario Name Login with valid credentials Ended
+20:04:55.695 [main] INFO  - Scenario Name Login with valid credentials Started
+20:05:02.411 [main] INFO  - Scenario Name Login with valid credentials Ended
+20:05:19.249 [main] INFO  - Scenario Name Login with valid credentials Started
+20:05:23.999 [main] INFO  - Scenario Name Login with valid credentials Ended
+20:06:22.784 [main] INFO  - Scenario Name Login with valid credentials Started
+20:06:37.788 [main] INFO  - Scenario Name Login with valid credentials Ended
+20:06:58.329 [main] INFO  - Scenario Name Login with valid credentials Started
+20:07:12.578 [main] INFO  - Scenario Name Login with valid credentials Ended
+20:07:46.150 [main] INFO  - Scenario Name Login with valid credentials Started
+20:08:01.395 [main] INFO  - Scenario Name Login with valid credentials Ended
+20:10:49.831 [main] INFO  - Scenario Name Login with valid credentials Started
+20:11:05.828 [main] INFO  - Scenario Name Login with valid credentials Ended
+20:12:03.334 [main] INFO  - Scenario Name Login with valid credentials Started
+20:12:18.622 [main] INFO  - Scenario Name Login with valid credentials Ended
+20:15:09.472 [main] INFO  - Scenario Name Login with valid credentials Started
+20:15:24.213 [main] INFO  - Scenario Name Login with valid credentials Ended
+20:19:45.858 [main] INFO  - Scenario Name Login with valid credentials Started
+20:20:06.618 [main] INFO  - Scenario Name Login with valid credentials Ended
+21:01:35.359 [main] INFO  - Scenario Name Login with valid credentials Started
+21:02:08.866 [main] INFO  - Scenario Name Login with valid credentials Ended
+21:02:40.155 [main] INFO  - Scenario Name Login with valid credentials Started
+21:03:13.477 [main] INFO  - Scenario Name Login with valid credentials Ended
+21:17:29.004 [main] INFO  - Scenario Name Player KeyBoard Right Arrow button forward and backward Started
+21:18:00.104 [main] INFO  - Scenario Name Player KeyBoard Right Arrow button forward and backward Ended
+21:18:36.241 [main] INFO  - Scenario Name Player KeyBoard Right Arrow button forward and backward Started
+21:19:09.062 [main] INFO  - Scenario Name Player KeyBoard Right Arrow button forward and backward Ended
+21:20:01.993 [main] INFO  - Scenario Name Player KeyBoard Right Arrow button forward and backward Started
+21:20:34.407 [main] INFO  - Scenario Name Player KeyBoard Right Arrow button forward and backward Ended
+21:21:20.041 [main] INFO  - Scenario Name Player KeyBoard Right Arrow button forward and backward Started
+21:21:50.720 [main] INFO  - Scenario Name Player KeyBoard Right Arrow button forward and backward Ended
+21:27:19.296 [main] INFO  - Scenario Name Player KeyBoard Right Arrow button Started
+21:27:51.917 [main] INFO  - Scenario Name Player KeyBoard Right Arrow button Ended
+21:27:52.163 [main] INFO  - Scenario Name Player KeyBoard Right Arrow button forward and backward Started
+21:28:22.384 [main] INFO  - Scenario Name Player KeyBoard Right Arrow button forward and backward Ended
+21:28:22.747 [main] INFO  - Scenario Name verify content buffering in full screen size when player in pause state for <contentType> Started
+21:28:48.015 [main] INFO  - Scenario Name verify content buffering in full screen size when player in pause state for <contentType> Ended
