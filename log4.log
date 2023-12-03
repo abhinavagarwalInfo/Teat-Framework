@@ -1,5 +1,3 @@
-13:32:55.998 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Started
-13:33:01.836 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Ended
 13:33:03.843 [TestNG-PoolService-0] INFO  - Scenario Name Add one quantity from Store Ended
 13:33:04.091 [TestNG-PoolService-1] INFO  - Scenario Name Add one quantity from Store Ended
 16:40:30.743 [TestNG-PoolService-2] INFO  - Scenario Name Show an error when try to add zero quantity Started

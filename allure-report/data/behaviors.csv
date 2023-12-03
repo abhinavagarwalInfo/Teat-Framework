@@ -1,6 +1,6 @@
 "Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Add to cart","Change the product quantity using arrows","0","0","3","0","0"
+"","Add to cart","Add the product already in the cart","0","1","1","0","0"
 "","Add to cart","Add one quantity from Store","0","2","0","0","0"
 "","Place an order","using default payment option","0","0","1","0","0"
 "","Add to cart","Show an error when try to add zero quantity","1","0","0","0","0"
-"","Add to cart","Change the product quantity using arrows","0","0","3","0","0"
-"","Add to cart","Add the product already in the cart","0","1","1","0","0"
