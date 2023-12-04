@@ -1,26 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Dec 03 13:31:27 IST 2023","Sun Dec 03 13:31:49 IST 2023","21596","","Add to cart","","Change the product quantity using arrows","","Change the product quantity using arrows","  As a customer of AskOmDch app,
-  I should be able to add product(s) to the cart,
-  So that I can purchase them"
-"passed","Sun Dec 03 13:31:27 IST 2023","Sun Dec 03 13:31:59 IST 2023","31566","","Add to cart","","Add the product already in the cart","","Add the product already in the cart","  As a customer of AskOmDch app,
-  I should be able to add product(s) to the cart,
-  So that I can purchase them"
-"broken","Sun Dec 03 13:31:27 IST 2023","Sun Dec 03 13:31:53 IST 2023","25530","","Add to cart","","Add one quantity from Store","","Add one quantity from Store","  As a customer of AskOmDch app,
-  I should be able to add product(s) to the cart,
-  So that I can purchase them"
-"broken","Sun Dec 03 13:31:27 IST 2023","Sun Dec 03 13:31:52 IST 2023","24702","","Add to cart","","Add one quantity from Store","","Add one quantity from Store","  As a customer of AskOmDch app,
-  I should be able to add product(s) to the cart,
-  So that I can purchase them"
-"passed","Sun Dec 03 13:31:27 IST 2023","Sun Dec 03 13:31:49 IST 2023","21580","","Add to cart","","Change the product quantity using arrows","","Change the product quantity using arrows","  As a customer of AskOmDch app,
-  I should be able to add product(s) to the cart,
-  So that I can purchase them"
-"passed","Sun Dec 03 13:31:27 IST 2023","Sun Dec 03 13:31:49 IST 2023","21979","","Add to cart","","Change the product quantity using arrows","","Change the product quantity using arrows","  As a customer of AskOmDch app,
-  I should be able to add product(s) to the cart,
-  So that I can purchase them"
-"broken","Sun Dec 03 13:31:27 IST 2023","Sun Dec 03 13:32:03 IST 2023","36024","","Add to cart","","Add the product already in the cart","","Add the product already in the cart","  As a customer of AskOmDch app,
-  I should be able to add product(s) to the cart,
-  So that I can purchase them"
-"passed","Sun Dec 03 13:31:27 IST 2023","Sun Dec 03 13:32:02 IST 2023","35057","","Place an order","","using default payment option","","using default payment option",""
-"failed","Sun Dec 03 13:31:27 IST 2023","Sun Dec 03 13:31:49 IST 2023","21710","","Add to cart","","Show an error when try to add zero quantity","","Show an error when try to add zero quantity","  As a customer of AskOmDch app,
-  I should be able to add product(s) to the cart,
-  So that I can purchase them"
+"passed","Mon Dec 04 15:51:14 IST 2023","Mon Dec 04 15:51:44 IST 2023","29435","","Login to application","","verify content buffering in full screen size when player in pause state","","verify content buffering in full screen size when player in pause state",""
+"passed","Mon Dec 04 15:50:28 IST 2023","Mon Dec 04 15:51:14 IST 2023","45820","","Login to application","","Player KeyBoard Right Arrow button","","Player KeyBoard Right Arrow button",""
+"broken","Mon Dec 04 15:50:28 IST 2023","Mon Dec 04 15:51:41 IST 2023","73158","","Login to application","","Player KeyBoard Right Arrow button forward and backward","","Player KeyBoard Right Arrow button forward and backward",""

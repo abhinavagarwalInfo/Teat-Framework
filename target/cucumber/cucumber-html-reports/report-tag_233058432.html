@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>03 Dec 2023, 13:32</td>
+      <td>04 Dec 2023, 15:51</td>
     </tr>
   </tbody>
 </table>
@@ -127,18 +127,18 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@regression</td>
-          <td      class="passed"    >29</td>
-          <td      class="failed"    >4</td>
-          <td     class="skipped"   >3</td>
+          <td      class="passed"    >21</td>
+          <td      class="failed"    >1</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">36</td>
+          <td >0</td>
+          <td class="total">22</td>
 
-          <td  class="passed"    >5</td>
-          <td  class="failed"    >4</td>
-          <td class="total">9</td>
+          <td  class="passed"    >2</td>
+          <td  class="failed"    >1</td>
+          <td class="total">3</td>
 
-          <td class="duration" data-value="150720660700">2:30.720</td>
+          <td class="duration" data-value="123837873200">2:3.837</td>
           <td class="failed">Failed</td>
         </tr>
         </tbody>
@@ -171,26 +171,26 @@ $(document).ready(function() {
 <div class="element">
     <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_3601652505.html">Add to cart</a>
+      <a href="report-feature_557123612.html">Login to application</a>
     </div>
 
 
 <div class="tags indention">
     <b>Tags:</b>
        <a href="report-tag_233058432.html">@regression</a>
-       <a href="report-tag_4089311534.html">@smoke</a>
-       <a href="report-tag_2209668642.html">@demo</a>
+       <a href="report-tag_2147547680.html">@P1</a>
+       <a href="report-tag_2127391520.html">@player</a>
 </div>
 
 
-  <span class="lead-duration duration">18.704</span>
+  <span class="lead-duration duration">36.066</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Add one quantity from Store</span>
+  <span class="name">Player KeyBoard Right Arrow button</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -199,7 +199,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
@@ -221,7 +221,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">void awesomecucumber.hooks.MyHooks.before(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">5.513</span>
+  <span class="lead-duration duration">4.106</span>
 
           </div>
 
@@ -238,9 +238,9 @@ $(document).ready(function() {
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -250,805 +250,15 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">I'm on the Store Page</span>
-
-  <span class="lead-duration duration">8.134</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When failed">
-  <span class="keyword indention">When</span>
-  <span class="name">I add a <span class="argument">&quot;Blue Shoes&quot;</span> to the cart</span>
-
-  <span class="lead-duration duration">10.569</span>
-
-</div>
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>org.openqa.selenium.TimeoutException:</a>
-      </div>
-      <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: a[aria-label='Add &acirc;&euro;&oelig;Blue Shoes&acirc;&euro;&#65533; to your cart'] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\shipr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63759}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63759/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5f0b64497c0fa530f48946f4d38e81bd
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-	at awesomecucumber.pages.BasePage.waitForElementToBeClickable(BasePage.java:98)
-	at awesomecucumber.pages.BasePage.click(BasePage.java:59)
-	at awesomecucumber.pages.StorePage.addToCart(StorePage.java:33)
-	at awesomecucumber.stepdefinitions.StoreStepDefinitions.iAddAToTheCart(StoreStepDefinitions.java:33)
-	at &#10045;.I add a &quot;Blue Shoes&quot; to the cart(file:///C:/Workspace/Webdriver-Framework/src/test/resources/features/add_to_cart.feature:14)
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then skipped">
-  <span class="keyword indention">Then</span>
-  <span class="name">I should see <span class="argument">1</span> <span class="argument">&quot;Blue Shoes&quot;</span> in the cart</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-  <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="after-5" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">After</span>
-              <span class="location name">void awesomecucumber.hooks.MyHooks.after(io.cucumber.java.Scenario)</span>
-
-  <span class="lead-duration duration">1.295</span>
-
-          </div>
-
-
-
-
-
-
-  <div class="embeddings inner-level">
-  <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
-      <a>Add one quantity from Store</a>
-      <a href="embeddings/embedding_-282789775.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-6" class="collapse collapsable-details ">
-      <div class="embedding-content">
-        <img src="embeddings/embedding_-282789775.png">
-      </div>
-    </div>
-  </div>
-  </div>
-
-        </div>
-    </div>
-  </div>
-
-  </div>
-</div>
-
-
-<div class="element">
-    <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_3601652505.html">Add to cart</a>
-    </div>
-
-
-<div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_233058432.html">@regression</a>
-       <a href="report-tag_4089311534.html">@smoke</a>
-       <a href="report-tag_2209668642.html">@demo</a>
-</div>
-
-
-  <span class="lead-duration duration">18.122</span>
-
-
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-7">
-
-<div class="brief failed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Add one quantity from Store</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-7" class="collapse collapsable-details  in ">
-
-
-  <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-8">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="before-8" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">Before</span>
-              <span class="location name">void awesomecucumber.hooks.MyHooks.before(io.cucumber.java.Scenario)</span>
-
-  <span class="lead-duration duration">5.592</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-    </div>
-  </div>
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-9">
-
-<div class="brief failed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-9" class="inner-level collapse collapsable-details  in ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">I'm on the Store Page</span>
-
-  <span class="lead-duration duration">7.008</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When failed">
-  <span class="keyword indention">When</span>
-  <span class="name">I add a <span class="argument">&quot;Anchor Bracelet&quot;</span> to the cart</span>
-
-  <span class="lead-duration duration">11.113</span>
-
-</div>
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-10">
-          <a>org.openqa.selenium.TimeoutException:</a>
-      </div>
-      <div id="msg-10" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: a[aria-label='Add &acirc;&euro;&oelig;Anchor Bracelet&acirc;&euro;&#65533; to your cart'] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\shipr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63760/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 338f866d4a9ae59ebc6df874ebd11d52
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-	at awesomecucumber.pages.BasePage.waitForElementToBeClickable(BasePage.java:98)
-	at awesomecucumber.pages.BasePage.click(BasePage.java:59)
-	at awesomecucumber.pages.StorePage.addToCart(StorePage.java:33)
-	at awesomecucumber.stepdefinitions.StoreStepDefinitions.iAddAToTheCart(StoreStepDefinitions.java:33)
-	at &#10045;.I add a &quot;Anchor Bracelet&quot; to the cart(file:///C:/Workspace/Webdriver-Framework/src/test/resources/features/add_to_cart.feature:14)
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then skipped">
-  <span class="keyword indention">Then</span>
-  <span class="name">I should see <span class="argument">1</span> <span class="argument">&quot;Anchor Bracelet&quot;</span> in the cart</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-  <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-11">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="after-11" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">After</span>
-              <span class="location name">void awesomecucumber.hooks.MyHooks.after(io.cucumber.java.Scenario)</span>
-
-  <span class="lead-duration duration">0.921</span>
-
-          </div>
-
-
-
-
-
-
-  <div class="embeddings inner-level">
-  <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-12" class="collapsable-control">
-      <a>Add one quantity from Store</a>
-      <a href="embeddings/embedding_-282789775.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-12" class="collapse collapsable-details ">
-      <div class="embedding-content">
-        <img src="embeddings/embedding_-282789775.png">
-      </div>
-    </div>
-  </div>
-  </div>
-
-        </div>
-    </div>
-  </div>
-
-  </div>
-</div>
-
-
-<div class="element">
-    <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_3601652505.html">Add to cart</a>
-    </div>
-
-
-<div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_233058432.html">@regression</a>
-       <a href="report-tag_4089311534.html">@smoke</a>
-</div>
-
-
-  <span class="lead-duration duration">29.873</span>
-
-
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-13">
-
-<div class="brief failed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Add the product already in the cart</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-13" class="collapse collapsable-details  in ">
-
-
-  <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-14">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="before-14" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">Before</span>
-              <span class="location name">void awesomecucumber.hooks.MyHooks.before(io.cucumber.java.Scenario)</span>
-
-  <span class="lead-duration duration">5.638</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-    </div>
-  </div>
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-15">
-
-<div class="brief failed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-15" class="inner-level collapse collapsable-details  in ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">I'm on the Store Page</span>
-
-  <span class="lead-duration duration">6.336</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
+  <div id="steps-3" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">I have <span class="argument">1</span> <span class="argument">&quot;Blue Shoes&quot;</span> in the cart</span>
+  <span class="name">open app url with moview</span>
 
-  <span class="lead-duration duration">13.401</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When failed">
-  <span class="keyword indention">When</span>
-  <span class="name">I add it again</span>
-
-  <span class="lead-duration duration">10.135</span>
-
-</div>
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-16">
-          <a>org.openqa.selenium.TimeoutException:</a>
-      </div>
-      <div id="msg-16" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: a[aria-label='Add &acirc;&euro;&oelig;Blue Shoes&acirc;&euro;&#65533; to your cart'] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\shipr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63761}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63761/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f281bbf2d81195d4e192e0953658dc76
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-	at awesomecucumber.pages.BasePage.waitForElementToBeClickable(BasePage.java:98)
-	at awesomecucumber.pages.BasePage.click(BasePage.java:59)
-	at awesomecucumber.pages.StorePage.addToCart(StorePage.java:33)
-	at awesomecucumber.stepdefinitions.StoreStepDefinitions.iAddItAgain(StoreStepDefinitions.java:28)
-	at &#10045;.I add it again(file:///C:/Workspace/Webdriver-Framework/src/test/resources/features/add_to_cart.feature:24)
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then skipped">
-  <span class="keyword indention">Then</span>
-  <span class="name">I should see <span class="argument">2</span> <span class="argument">&quot;Blue Shoes&quot;</span> in the cart</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-  <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-17">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="after-17" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">After</span>
-              <span class="location name">void awesomecucumber.hooks.MyHooks.after(io.cucumber.java.Scenario)</span>
-
-  <span class="lead-duration duration">0.501</span>
-
-          </div>
-
-
-
-
-
-
-  <div class="embeddings inner-level">
-  <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-18" class="collapsable-control">
-      <a>Add the product already in the cart</a>
-      <a href="embeddings/embedding_-1832365729.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-18" class="collapse collapsable-details ">
-      <div class="embedding-content">
-        <img src="embeddings/embedding_-1832365729.png">
-      </div>
-    </div>
-  </div>
-  </div>
-
-        </div>
-    </div>
-  </div>
-
-  </div>
-</div>
-
-
-<div class="element">
-    <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_3601652505.html">Add to cart</a>
-    </div>
-
-
-<div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_233058432.html">@regression</a>
-       <a href="report-tag_4089311534.html">@smoke</a>
-</div>
-
-
-  <span class="lead-duration duration">23.300</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-19">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Add the product already in the cart</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-19" class="collapse collapsable-details ">
-
-
-  <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-20">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="before-20" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">Before</span>
-              <span class="location name">void awesomecucumber.hooks.MyHooks.before(io.cucumber.java.Scenario)</span>
-
-  <span class="lead-duration duration">8.011</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-    </div>
-  </div>
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-21">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-21" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">I'm browsing <span class="argument">&quot;Blue Shoes&quot;</span></span>
-
-  <span class="lead-duration duration">6.617</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">I have <span class="argument">1</span> <span class="argument">&quot;Blue Shoes&quot;</span> in the cart</span>
-
-  <span class="lead-duration duration">10.218</span>
+  <span class="lead-duration duration">11.736</span>
 
 </div>
 
@@ -1073,9 +283,36 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
 <div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
-  <span class="name">I add <span class="argument">1</span> quantity to the cart</span>
+  <span class="name">Click on SignIN button on player page</span>
 
-  <span class="lead-duration duration">6.274</span>
+  <span class="lead-duration duration">0.230</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">Put <span class="argument">&quot;9818533677&quot;</span> and <span class="argument">&quot;1111&quot;</span></span>
+
+  <span class="lead-duration duration">2.633</span>
 
 </div>
 
@@ -1100,9 +337,90 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
 <div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name">I should see <span class="argument">2</span> <span class="argument">&quot;Blue Shoes&quot;</span> in the cart</span>
+  <span class="name">User clicks on watch now Button</span>
 
-  <span class="lead-duration duration">0.190</span>
+  <span class="lead-duration duration">5.359</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">wait for <span class="argument">5000</span> milli second</span>
+
+  <span class="lead-duration duration">5.009</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">click KeyBoard Right Arrow button on <span class="argument">5</span> time</span>
+
+  <span class="lead-duration duration">6.087</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">wait for <span class="argument">5000</span> milli second</span>
+
+  <span class="lead-duration duration">5.009</span>
 
 </div>
 
@@ -1129,7 +447,7 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-22">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1141,13 +459,13 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
     </div>
 
-    <div id="after-22" class="inner-level collapse collapsable-details ">
+    <div id="after-4" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">void awesomecucumber.hooks.MyHooks.after(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.248</span>
+  <span class="lead-duration duration">0.414</span>
 
           </div>
 
@@ -1168,25 +486,26 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 <div class="element">
     <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_3601652505.html">Add to cart</a>
+      <a href="report-feature_557123612.html">Login to application</a>
     </div>
 
 
 <div class="tags indention">
     <b>Tags:</b>
        <a href="report-tag_233058432.html">@regression</a>
-       <a href="report-tag_4089311534.html">@smoke</a>
+       <a href="report-tag_2147547679.html">@P0</a>
+       <a href="report-tag_2127391520.html">@player</a>
 </div>
 
 
-  <span class="lead-duration duration">9.610</span>
+  <span class="lead-duration duration">1:2.238</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-23">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-5">
 
 <div class="brief failed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Show an error when try to add zero quantity</span>
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Player KeyBoard Right Arrow button forward and backward</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -1195,11 +514,11 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
   </span>
   <div class="description indention"></div>
 
-  <div id="element-23" class="collapse collapsable-details  in ">
+  <div id="element-5" class="collapse collapsable-details  in ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-24">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-6">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1211,13 +530,13 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
     </div>
 
-    <div id="before-24" class="inner-level collapse collapsable-details ">
+    <div id="before-6" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">void awesomecucumber.hooks.MyHooks.before(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">7.178</span>
+  <span class="lead-duration duration">4.106</span>
 
           </div>
 
@@ -1234,7 +553,7 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-25">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-7">
 
 <div class="brief failed">
   <span class="keyword indention">Steps</span>
@@ -1246,15 +565,15 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
   </div>
 
-  <div id="steps-25" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-7" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">I'm browsing <span class="argument">&quot;Blue Shoes&quot;</span></span>
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">open app url with moview</span>
 
-  <span class="lead-duration duration">6.401</span>
+  <span class="lead-duration duration">11.654</span>
 
 </div>
 
@@ -1279,9 +598,144 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
 <div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
-  <span class="name">I add <span class="argument">0</span> quantity</span>
+  <span class="name">Click on SignIN button on player page</span>
 
-  <span class="lead-duration duration">2.363</span>
+  <span class="lead-duration duration">0.351</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">Put <span class="argument">&quot;9818533677&quot;</span> and <span class="argument">&quot;1111&quot;</span></span>
+
+  <span class="lead-duration duration">4.191</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">User clicks on watch now Button</span>
+
+  <span class="lead-duration duration">5.454</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">wait for <span class="argument">5000</span> milli second</span>
+
+  <span class="lead-duration duration">5.011</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">verify player forward functionality in streaming</span>
+
+  <span class="lead-duration duration">8.845</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">wait for <span class="argument">2000</span> milli second</span>
+
+  <span class="lead-duration duration">2.004</span>
 
 </div>
 
@@ -1306,9 +760,9 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
 <div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
-  <span class="name">I should see an error</span>
+  <span class="name">verify player backward functionality in streaming</span>
 
-  <span class="lead-duration duration">0.844</span>
+  <span class="lead-duration duration">24.725</span>
 
 </div>
 
@@ -1319,14 +773,37 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
   <div class="inner-level">
     <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-26">
-          <a>java.lang.AssertionError:</a>
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-8">
+          <a>org.openqa.selenium.ElementNotInteractableException:</a>
       </div>
-      <div id="msg-26" class="collapse collapsable-details  in ">
-        <pre>java.lang.AssertionError: Failing this step intentionally to check the screenshot attached int the Report
-	at org.testng.Assert.fail(Assert.java:111)
-	at awesomecucumber.stepdefinitions.ProductStepDefinitions.iShouldSeeAnError(ProductStepDefinitions.java:47)
-	at &#10045;.I should see an error(file:///C:/Workspace/Webdriver-Framework/src/test/resources/features/add_to_cart.feature:50)
+      <div id="msg-8" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce5700a4cb451f97dc2c66e7993b2cf4, sendKeysToElement {id=4EB86B921657B570B6C97BB0EFCCFCA3_element_228, value=[Ljava.lang.CharSequence;@73f6cb1d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\shipr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50625/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ce5700a4cb451f97dc2c66e7993b2cf4)] -&gt; xpath: //div[@id='seekbar']]
+Session ID: ce5700a4cb451f97dc2c66e7993b2cf4
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
+	at awesomecucumber.pages.PlayerPage.click_ON_LeftArrow_respect_of_seekBar(PlayerPage.java:124)
+	at awesomecucumber.stepdefinitions.PlayerStepDefinitions.click_On_Keyboard_LeftArrow_Button(PlayerStepDefinitions.java:66)
+	at awesomecucumber.stepdefinitions.PlayerStepDefinitions.verify_player_backward_func_in_Streaming(PlayerStepDefinitions.java:74)
+	at &#10045;.verify player backward functionality in streaming(file:///C:/Workspace/Webdriver-Framework/src/test/resources/features/player.feature:30)
 </pre>
       </div>
     </div>
@@ -1350,7 +827,7 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-27">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-9">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1362,13 +839,13 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
     </div>
 
-    <div id="after-27" class="inner-level collapse collapsable-details ">
+    <div id="after-9" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">void awesomecucumber.hooks.MyHooks.after(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">4.904</span>
+  <span class="lead-duration duration">1.548</span>
 
           </div>
 
@@ -1379,15 +856,15 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
   <div class="embeddings inner-level">
   <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-28" class="collapsable-control">
-      <a>Show an error when try to add zero quantity</a>
-      <a href="embeddings/embedding_909495072.png" download target="_blank">
+    <div data-toggle="collapse" data-target="#embedding-10" class="collapsable-control">
+      <a>Player KeyBoard Right Arrow button forward and backward</a>
+      <a href="embeddings/embedding_-553699552.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
-    <div id="embedding-28" class="collapse collapsable-details ">
+    <div id="embedding-10" class="collapse collapsable-details ">
       <div class="embedding-content">
-        <img src="embeddings/embedding_909495072.png">
+        <img src="embeddings/embedding_-553699552.png">
       </div>
     </div>
   </div>
@@ -1404,26 +881,26 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 <div class="element">
     <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_3601652505.html">Add to cart</a>
+      <a href="report-feature_557123612.html">Login to application</a>
     </div>
 
 
 <div class="tags indention">
     <b>Tags:</b>
        <a href="report-tag_233058432.html">@regression</a>
-       <a href="report-tag_2203492621.html">@sanity</a>
-       <a href="report-tag_4089311534.html">@smoke</a>
+       <a href="report-tag_2147547679.html">@P0</a>
+       <a href="report-tag_2127391520.html">@player</a>
 </div>
 
 
-  <span class="lead-duration duration">6.210</span>
+  <span class="lead-duration duration">25.532</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-29">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-11">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Change the product quantity using arrows</span>
+  <span class="name">verify content buffering in full screen size when player in pause state</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -1432,11 +909,11 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
   </span>
   <div class="description indention"></div>
 
-  <div id="element-29" class="collapse collapsable-details ">
+  <div id="element-11" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-30">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-12">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1448,13 +925,13 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
     </div>
 
-    <div id="before-30" class="inner-level collapse collapsable-details ">
+    <div id="before-12" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">void awesomecucumber.hooks.MyHooks.before(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">12.556</span>
+  <span class="lead-duration duration">1.124</span>
 
           </div>
 
@@ -1471,7 +948,7 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-31">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-13">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -1483,42 +960,15 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
   </div>
 
-  <div id="steps-31" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">I'm browsing <span class="argument">&quot;Blue Shoes&quot;</span></span>
-
-  <span class="lead-duration duration">3.018</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
+  <div id="steps-13" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">the selected quantity is <span class="argument">1</span></span>
+  <span class="name">open app url with moview</span>
 
-  <span class="lead-duration duration">0.800</span>
+  <span class="lead-duration duration">10.818</span>
 
 </div>
 
@@ -1543,9 +993,36 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
 <div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
-  <span class="name">I use <span class="argument">up</span> arrow to change the quantity</span>
+  <span class="name">Click on SignIN button on player page</span>
 
-  <span class="lead-duration duration">2.388</span>
+  <span class="lead-duration duration">0.290</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">Put <span class="argument">&quot;9818533677&quot;</span> and <span class="argument">&quot;1111&quot;</span></span>
+
+  <span class="lead-duration duration">2.415</span>
 
 </div>
 
@@ -1570,9 +1047,90 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
 <div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name">the selected quantity changes to <span class="argument">2</span></span>
+  <span class="name">User clicks on watch now Button</span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">5.299</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">wait for <span class="argument">5000</span> milli second</span>
+
+  <span class="lead-duration duration">5.018</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">click On full screen Button in playerr</span>
+
+  <span class="lead-duration duration">0.780</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">click on play pause player controller button</span>
+
+  <span class="lead-duration duration">0.910</span>
 
 </div>
 
@@ -1599,7 +1157,7 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-32">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-14">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1611,819 +1169,13 @@ Session ID: f281bbf2d81195d4e192e0953658dc76
 
     </div>
 
-    <div id="after-32" class="inner-level collapse collapsable-details ">
+    <div id="after-14" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">void awesomecucumber.hooks.MyHooks.after(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">2.788</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-    </div>
-  </div>
-
-  </div>
-</div>
-
-
-<div class="element">
-    <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_3601652505.html">Add to cart</a>
-    </div>
-
-
-<div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_233058432.html">@regression</a>
-       <a href="report-tag_2203492621.html">@sanity</a>
-       <a href="report-tag_4089311534.html">@smoke</a>
-</div>
-
-
-  <span class="lead-duration duration">6.790</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-33">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Change the product quantity using arrows</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-33" class="collapse collapsable-details ">
-
-
-  <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-34">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="before-34" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">Before</span>
-              <span class="location name">void awesomecucumber.hooks.MyHooks.before(io.cucumber.java.Scenario)</span>
-
-  <span class="lead-duration duration">12.419</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-    </div>
-  </div>
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-35">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-35" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">I'm browsing <span class="argument">&quot;Blue Shoes&quot;</span></span>
-
-  <span class="lead-duration duration">1.548</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">the selected quantity is <span class="argument">2</span></span>
-
-  <span class="lead-duration duration">2.580</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I use <span class="argument">down</span> arrow to change the quantity</span>
-
-  <span class="lead-duration duration">2.661</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">the selected quantity changes to <span class="argument">1</span></span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-  <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-36">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="after-36" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">After</span>
-              <span class="location name">void awesomecucumber.hooks.MyHooks.after(io.cucumber.java.Scenario)</span>
-
-  <span class="lead-duration duration">2.337</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-    </div>
-  </div>
-
-  </div>
-</div>
-
-
-<div class="element">
-    <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_3601652505.html">Add to cart</a>
-    </div>
-
-
-<div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_233058432.html">@regression</a>
-       <a href="report-tag_2203492621.html">@sanity</a>
-       <a href="report-tag_4089311534.html">@smoke</a>
-</div>
-
-
-  <span class="lead-duration duration">9.113</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-37">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Change the product quantity using arrows</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-37" class="collapse collapsable-details ">
-
-
-  <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-38">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="before-38" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">Before</span>
-              <span class="location name">void awesomecucumber.hooks.MyHooks.before(io.cucumber.java.Scenario)</span>
-
-  <span class="lead-duration duration">7.475</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-    </div>
-  </div>
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-39">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-39" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">I'm browsing <span class="argument">&quot;Blue Shoes&quot;</span></span>
-
-  <span class="lead-duration duration">5.947</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">the selected quantity is <span class="argument">1</span></span>
-
-  <span class="lead-duration duration">1.558</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I use <span class="argument">down</span> arrow to change the quantity</span>
-
-  <span class="lead-duration duration">1.606</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">the selected quantity changes to <span class="argument">1</span></span>
-
-  <span class="lead-duration duration">0.001</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-  <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-40">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="after-40" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">After</span>
-              <span class="location name">void awesomecucumber.hooks.MyHooks.after(io.cucumber.java.Scenario)</span>
-
-  <span class="lead-duration duration">5.368</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-    </div>
-  </div>
-
-  </div>
-</div>
-
-
-<div class="element">
-    <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_1_2192084598.html">Place an order</a>
-    </div>
-
-
-<div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_233058432.html">@regression</a>
-       <a href="report-tag_2203492621.html">@sanity</a>
-       <a href="report-tag_2149488223.html">@bvt</a>
-       <a href="report-tag_4089311534.html">@smoke</a>
-</div>
-
-
-  <span class="lead-duration duration">28.993</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-41">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">using default payment option</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-41" class="collapse collapsable-details ">
-
-
-  <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-42">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="before-42" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">Before</span>
-              <span class="location name">void awesomecucumber.hooks.MyHooks.before(io.cucumber.java.Scenario)</span>
-
-  <span class="lead-duration duration">5.601</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-    </div>
-  </div>
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-43">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-43" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">I'm a guest customer</span>
-
-  <span class="lead-duration duration">9.086</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">my billing details are</span>
-
-  <span class="lead-duration duration">0.080</span>
-
-</div>
-
-
-
-
-
-
-
-          <table class="step-arguments">
-              <tr>
-                  <td>firstname</td>
-                  <td>lastname</td>
-                  <td>country</td>
-                  <td>address_line1</td>
-                  <td>city</td>
-                  <td>state</td>
-                  <td>zip</td>
-                  <td>email</td>
-              </tr>
-              <tr>
-                  <td>demo</td>
-                  <td>user</td>
-                  <td>United States (US)</td>
-                  <td>6300 Spring Creek</td>
-                  <td>Plano</td>
-                  <td>Texas</td>
-                  <td>75024</td>
-                  <td>askomdch@gmail.com</td>
-              </tr>
-          </table>
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">I have <span class="argument">1</span> <span class="argument">&quot;Blue Shoes&quot;</span> in the cart</span>
-
-  <span class="lead-duration duration">10.044</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">I'm on the Checkout page</span>
-
-  <span class="lead-duration duration">1.297</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I provide billing details</span>
-
-  <span class="lead-duration duration">4.333</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">I place an order</span>
-
-  <span class="lead-duration duration">2.450</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">the order should be placed successfully</span>
-
-  <span class="lead-duration duration">1.700</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-  <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-44">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="after-44" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">After</span>
-              <span class="location name">void awesomecucumber.hooks.MyHooks.after(io.cucumber.java.Scenario)</span>
-
-  <span class="lead-duration duration">0.222</span>
+  <span class="lead-duration duration">0.221</span>
 
           </div>
 

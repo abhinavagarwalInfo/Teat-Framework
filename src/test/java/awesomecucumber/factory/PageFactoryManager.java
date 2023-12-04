@@ -12,6 +12,8 @@ public class PageFactoryManager {
     private static ProductPage productPage;
 	private static LoginPage loginPage;
 
+	private static PlayerPage playerPage;
+
 	public static StorePage getStorePage(WebDriver driver) {
 		/**
 		 * Using Ternary Operator: Checking for storePage as null.
@@ -37,5 +39,9 @@ public class PageFactoryManager {
 
 	public static LoginPage getLoginPage(WebDriver driver) {
 		return loginPage == null ? new LoginPage(driver) : loginPage;
+	}
+
+	public static PlayerPage getPlayerPage(WebDriver driver){
+		return playerPage == null ? new PlayerPage(driver) : playerPage;
 	}
 }

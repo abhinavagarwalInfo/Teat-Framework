@@ -647,3 +647,12 @@
 13:31:58.963 [TestNG-PoolService-3] INFO  - Scenario Name Add the product already in the cart Ended
 13:32:02.434 [TestNG-PoolService-8] INFO  - Scenario Name using default payment option Ended
 13:32:03.117 [TestNG-PoolService-2] INFO  - Scenario Name Add the product already in the cart Ended
+15:49:26.131 [TestNG-PoolService-1] INFO  - Scenario Name Player KeyBoard Right Arrow button forward and backward Started
+15:49:41.752 [TestNG-PoolService-1] INFO  - Scenario Name Player KeyBoard Right Arrow button forward and backward Ended
+15:49:42.104 [TestNG-PoolService-1] INFO  - Scenario Name verify content buffering in full screen size when player in pause state Started
+15:49:42.888 [TestNG-PoolService-0] INFO  - Scenario Name Player KeyBoard Right Arrow button Ended
+15:50:30.004 [TestNG-PoolService-1] INFO  - Scenario Name Player KeyBoard Right Arrow button forward and backward Started
+15:51:13.876 [TestNG-PoolService-0] INFO  - Scenario Name Player KeyBoard Right Arrow button Ended
+15:51:14.676 [TestNG-PoolService-0] INFO  - Scenario Name verify content buffering in full screen size when player in pause state Started
+15:51:40.079 [TestNG-PoolService-1] INFO  - Scenario Name Player KeyBoard Right Arrow button forward and backward Ended
+15:51:43.886 [TestNG-PoolService-0] INFO  - Scenario Name verify content buffering in full screen size when player in pause state Ended

@@ -1,1 +1,1 @@
-{"total":2,"items":[{"uid":"966e2b94e1c4658ba52eb695b60c4218","name":"Add to cart","statistic":{"failed":1,"broken":2,"skipped":0,"passed":1,"unknown":0,"total":4}},{"uid":"0da88c9502ebb1c0dcaab6b63ae94849","name":"Place an order","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
+{"total":1,"items":[{"uid":"fd267655070ca7798a0b1283d3985da2","name":"Login to application","statistic":{"failed":0,"broken":1,"skipped":0,"passed":2,"unknown":0,"total":3}}]}
