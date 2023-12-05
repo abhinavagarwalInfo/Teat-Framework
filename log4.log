@@ -683,3 +683,9 @@
 21:33:14.852 [main] INFO  - Scenario Name verify content buffering in full screen size when player in pause state for <contentType> Ended
 21:50:09.997 [main] INFO  - Scenario Name Player KeyBoard Right Arrow button forward and backward Started
 21:50:57.859 [main] INFO  - Scenario Name Player KeyBoard Right Arrow button forward and backward Ended
+21:19:31.632 [main] INFO  - Scenario Name verify content buffering in full screen size when player in pause state Started
+21:20:34.721 [main] INFO  - Scenario Name verify content buffering in full screen size when player in pause state Ended
+21:21:20.130 [main] INFO  - Scenario Name verify player all controlers Started
+21:21:50.911 [main] INFO  - Scenario Name verify player all controlers Ended
+21:22:01.071 [main] INFO  - Scenario Name verify player all controlers Started
+21:23:48.946 [main] INFO  - Scenario Name verify player all controlers Ended

@@ -75,6 +75,31 @@ public class PlayerStepDefinitions {
         player.sleep(10);
 
     }
+
+    @Then("^perform monkey testing on full screen$")
+    public void performMonkeyTestingFullScreen() throws ParseException {
+        if (!player.verifyPlayback())
+            player.click_on_play_pause_bottom_control_button();
+        player.sleep(5000);
+        player.click_on_play_pause_bottom_control_button();
+        player.click_On_full_screen_Button();
+        player.click_on_play_pause_bottom_control_button();
+        player.click_ON_RightArrow_respect_of_seekBar();
+        player.click_On_BackWard_Button();
+        player.click_On_Forward_Button();
+        player.click_On_volume_button();
+        player.click_On_volume_button();
+        player.click_on_Setting_Btn();
+        player.clickOnPIPButton();
+        player.sleep(5000);
+        player.clickOnPIPButton();
+//        player.clickOnSmallScreenButton();
+        player.click_On_full_screen_Button();
+        player.set_SeekBar_Thumb_In_Start();
+        player.set_SeekBar_Thumb_In_End();
+//        commonPage.reload_page();
+//        playerPage.click_on_play_pause_bottom_control_button();
+    }
 //    @Then("^verify player backward functionality in streaming$")
 //    public void verify_player_backward_func_in_Streaming() throws ParseException {
 //        player.set_SeekBar_Thumb_In_End();

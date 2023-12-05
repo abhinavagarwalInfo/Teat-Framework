@@ -18,7 +18,7 @@
       | Mobile_Number | otp | Page|
       |9818533677     | 1111 | Home |
 
-    @P0 @player1
+    @P0 @player
     Scenario Outline: Player KeyBoard Right Arrow button forward and backward
       And open app url with moview
       When Click on SignIN button on player page
@@ -41,6 +41,18 @@
       Then wait for 5000 milli second
       Then click On full screen Button in playerr
       Then click on play pause player controller button
+      Examples:
+        | Mobile_Number | otp | Page|
+        |9818533677     | 1111 | Home |
+
+    @P0 @player
+    Scenario Outline: verify player all controlers
+      And open app url with moview
+      When Click on SignIN button on player page
+      And Put "<Mobile_Number>" and "<otp>"
+      Then User clicks on watch now Button
+      Then wait for 5000 milli second
+      Then perform monkey testing on full screen
       Examples:
         | Mobile_Number | otp | Page|
         |9818533677     | 1111 | Home |

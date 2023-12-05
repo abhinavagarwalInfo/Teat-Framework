@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 public class BasePage {
-	protected WebDriver driver;
+	public WebDriver driver;
 	protected WebDriverWait wait;
 
 	public BasePage(WebDriver driver) {

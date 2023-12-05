@@ -13,14 +13,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import java.text.SimpleDateFormat;
 import java.time.Clock;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
+import static awesomecucumber.constants.FrameworkConstants.EXPLICIT_WAIT;
 import static java.sql.DriverManager.getDriver;
 import static org.bouncycastle.oer.its.ieee1609dot2.basetypes.Duration.seconds;
 
@@ -66,7 +69,11 @@ public class PlayerPage extends BasePage{
 
 
     public PlayerPage(WebDriver driver) {
+//        super();
         super(driver);
+        this.driver = driver;
+        wait = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT));
+        PageFactory.initElements(driver, this);
     }
     public boolean loading() throws InterruptedException {
         driver.get(ConfigLoader.getInstance().getBaseUrl() + "movies/laboratory-hindi/HOICHOI_MOVIE_14046aaa-9648-4cc8-8b39-cb2e5df29ce0");
@@ -355,5 +362,110 @@ private By seekbar_Thumb = By.xpath("//div[@class='thumb']");
         click(toggle_full_screen_btn);
 //        Thread.sleep(5000);
 //        new Actions(getDriver()).moveToElement(new WebDriverWait(getDriver(), 20).until(ExpectedConditions.elementToBeClickable(toggle_full_screen_btn))).click().build().perform();
+    }
+
+    public Boolean verifyPlayback() {
+
+        Boolean playBackStatus = false;
+//        Boolean autoplay = checkAutoplayOfContent();
+//        if (autoplay) {
+//
+//            WebElement player = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT)).until(ExpectedConditions.visibilityOfElementLocated(videoPlayer));
+//            moveToWebElement(player, "Video Player");
+//            String contentStartTime = get_player_Thumb_Current_Time();
+//            sleep(2000);
+//            clickForwardButtonNoOfTimes("3");
+//            sleep(3000);
+//            moveToWebElement(player, "Video Player");
+//            String contentCurrentTime = get_player_Thumb_Current_Time();
+//            String buttonImageLink = driver.findElement(By.xpath("//button[@id='player-play-btn']//img")).getAttribute("src");
+//            System.out.println(buttonImageLink);
+//            if (!contentCurrentTime.equals(contentStartTime) && buttonImageLink.contains("pause"))
+//                playBackStatus = true;
+//        }
+        WebElement player = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT)).until(ExpectedConditions.visibilityOfElementLocated(videoPlayer));
+        moveToWebElement(player, "Video Player");
+        String contentStartTime = get_player_Thumb_Current_Time();
+        sleep(2000);
+        clickForwardButtonNoOfTimes("3");
+        sleep(3000);
+        moveToWebElement(player, "Video Player");
+        String contentCurrentTime = get_player_Thumb_Current_Time();
+        String buttonImageLink = driver.findElement(By.xpath("//button[@id='player-play-btn']//img")).getAttribute("src");
+        System.out.println(buttonImageLink);
+        return playBackStatus;
+    }
+    public Actions moveToWebElement(WebElement webElement, String elementName) {
+        Actions actions = new Actions(this.driver);
+        actions.moveToElement(webElement).perform();
+//        log.info("Moved to web element - '{}'", elementName);
+        return actions;
+    }
+    public void clickForwardButtonNoOfTimes(String no) {
+        WebDriver driver1;
+        WebElement fwdBtn = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT)).until(ExpectedConditions.presenceOfElementLocated(forward_btn));
+        WebElement player = new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT)).until(ExpectedConditions.visibilityOfElementLocated(videoPlayer));
+        moveToWebElement(player, "Player");
+        moveToWebElement(fwdBtn, "Player forward buttton");
+        for (int i = 1; i <= Integer.parseInt(no); i++) {
+
+            fwdBtn.click();
+        }
+    }
+
+    public void click_On_full_screen_Button() {
+        if(!verifyPlayback()){
+            click_on_play_pause_bottom_control_button();
+            sleep(50);
+        }
+        mouse_Hover(videoPlayer, true);
+//        Thread.sleep(5000);
+        new Actions(driver).moveToElement(new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT)).until(ExpectedConditions.elementToBeClickable(toggle_full_screen_btn))).click().build().perform();
+    }
+    private By volume_Btn = By.id("volume-bar");
+    public void click_On_volume_button() {
+        mouse_Hover(videoPlayer, true);
+        click(volume_Btn);
+    }
+    private By setting_btn = By.id("player-setting-controller");
+    public void click_on_Setting_Btn() {
+        mouse_Hover(videoPlayer, true);
+        driver.findElement(setting_btn).click();
+    }
+    private By pip_Button = By.className("pip-button");
+    public void clickOnPIPButton() {
+//        commonPage.mouse_Hover(pip_Button, true);
+//        click(pip_Button, "pip Button");
+        mouse_Hover(videoPlayer, true);
+//        Thread.sleep(5000);
+        new Actions(driver).moveToElement(new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT)).until(ExpectedConditions.elementToBeClickable(pip_Button))).click().build().perform();
+    }
+    private By toggle_small_screen_btn = By.id("player-toggle-fullscreen");
+    public void clickOnSmallScreenButton() {
+        mouse_Hover(videoPlayer, true);
+//        click(toggle_small_screen_btn);
+        new Actions(driver).moveToElement(new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT)).until(ExpectedConditions.elementToBeClickable(toggle_small_screen_btn))).click().build().perform();
+
+    }
+
+    public void set_SeekBar_Thumb_In_End() throws ParseException {
+        sleep(5000);
+        while (time_to_milliSec(get_player_Thumb_Current_Time()) > (time_to_milliSec(get_player_Thumb_End_Time()) * 96) / 100) {
+            click_ON_LeftArrow_respect_of_seekBar();
+        }
+        while (time_to_milliSec(get_player_Thumb_Current_Time()) < (time_to_milliSec(get_player_Thumb_End_Time()) * 4) / 100) {
+            click_ON_RightArrow_respect_of_seekBar();
+        }
+        new Actions(driver)
+                .moveToElement(driver.findElement(seekbar_Thumb))
+                .pause(Duration.ofSeconds(1))
+                .clickAndHold(driver.findElement(seekbar_Thumb))
+                .pause(Duration.ofSeconds(1))
+                .moveByOffset(1, 0)
+                .moveToElement(driver.findElement(seekbar_end_time_label))
+                .moveByOffset(1, 0)
+                .pause(Duration.ofSeconds(0))
+                .release().perform();
+
     }
 }
