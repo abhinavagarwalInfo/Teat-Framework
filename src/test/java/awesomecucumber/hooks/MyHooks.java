@@ -201,9 +201,11 @@ public class MyHooks {
 		// TO DO:
 		// Write the code for : Copy the allure-report/history subdirectory to allure-results/history.
 		try{
+			onGenerateAllureReport genReport = new onGenerateAllureReport();
 			File sFile = new File(System.getProperty("user.dir") + "/allure-report/history");
 			File dFile = new File(System.getProperty("user.dir") + "/allure-results/history");
 			directoryUtil.copyDirectory(sFile,dFile);
+			genReport.ExecuteCommand();
 		}catch (Exception e){
 			e.printStackTrace();
 		}
