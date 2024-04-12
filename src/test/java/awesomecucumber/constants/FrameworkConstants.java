@@ -35,5 +35,9 @@ public class FrameworkConstants {
 	public static final String REPORTS_CUCUMBER_LOCATION = "./target/cucumber/";
 	public static final String REPORTS_CUCUMBER_LOCAL = REPORTS_CUCUMBER_LOCATION + "cucumber.html";
 	public static final String REPORTS_ZIPPED_FILE_NAME = "CucumberReports.zip";
-
+	
+	/* ALLURE REPORTS */
+	public static final String ALLURE_REPORT_LOCATION = "./allure-report";
+	public static final String ALLURE_RESULTS_LOCATION = "./allure-results";
+	public static final String REPORTS_ZIPPED_FILE_NAME1 = "AllureReports.zip";
 }
