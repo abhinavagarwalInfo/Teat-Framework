@@ -20,6 +20,7 @@ import static awesomecucumber.constants.FrameworkConstants.BROWSER_HEADLESS;
 public class DriverFactory {
 
 	public static WebDriver initializeDriver(String browser) {
+		WebDriverManager.chromedriver().clearDriverCache().setup();
 		WebDriver driver;
 //        switch (browser) {
 //            case "chrome" -> {
