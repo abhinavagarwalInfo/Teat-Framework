@@ -45,4 +45,17 @@ public class LoginStepDefinitions {
             login.scrollDownToBottom();
             Thread.sleep(5000);
         }
+
+    @When("Put from sheetname {string} and rownumber {int}")
+        public void Putfromsheetnameandrownumber(String sheetName, Integer rowNumber) {
+            ExcelReader reader = new ExcelReader();
+            String sheetPath = System.getProperty("user.dir");
+            List<Map<String, String>> testData = reader.getData(sheetPath + "/src/test/resources/PurchaseData.xlsx", sheetName);
+            String mobNum = testData.get(rowNumber).get("MobNumber");
+            String otp = testData.get(rowNumber).get("OTP");
+            login.enterMobNumber(mobNum);
+            login.clickForVerifyNumber();
+            login.enterOTP(otp);
+            login.clickForVerifyOTP();
+        }
 }
