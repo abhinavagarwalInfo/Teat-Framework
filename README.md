@@ -21,7 +21,7 @@ This repository contains a robust and scalable automation framework built using 
 - IDE (Eclipse, IntelliJ IDEA, etc.)
 
 ## Getting Started
-- _Clone the repository:_ `git clone https://github.com/your/repository.git`
+- _Clone the repository:_ `git clone https://github.com/abhinavagarwalInfo/Teat-Framework`
 - _Import the project:_ Import the project into your preferred IDE.
 - _Install dependencies:_ Execute `mvn clean install` to install all project dependencies.
 - _Update configuration:_ Update config.properties file with necessary configurations like browser type, URL, etc.
