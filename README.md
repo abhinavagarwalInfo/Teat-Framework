@@ -1,3 +1,93 @@
+# Selenium Automation Framework with Cucumber BDD
+
+## Overview
+This repository contains a robust and scalable automation framework built using Selenium WebDriver and Cucumber for automating web applications. The framework is designed to provide a structured approach to automate web UI testing using Behavior-Driven Development (BDD) principles.
+## Features
+- _Modular Architecture:_ The framework follows a modular approach, allowing easy maintenance and scalability.
+- _Page Object Model (POM):_ Implements the Page Object Model design pattern to enhance code reusability and maintainability.
+- _Cucumber Integration:_ Utilizes Cucumber for defining test scenarios in a human-readable format (Gherkin syntax) and running tests.
+- _TestNG Integration:_ Integrates with TestNG for test case management, parallel execution, and reporting.
+- _Logging and Reporting:_ Integrated with logging frameworks like Log4j and reporting tools like ExtentReports for comprehensive test reporting.
+- _Configuration Management:_ Centralized configuration management using properties files for easy configuration changes.
+- _Cross-browser Testing:_ Supports cross-browser testing on major browsers like Chrome, Firefox, and Safari.
+- _Parallel Execution:_ Enables parallel execution of tests to reduce overall execution time.
+- _Screenshot Capture:_ Automatically captures screenshots on test failure for better debugging and reporting.
+- _CI/CD Integration:_ Seamlessly integrates with popular CI/CD tools like Jenkins for continuous testing.
+
+## Prerequisites
+- Java Development Kit (JDK) 8 or higher
+- Maven
+- WebDriver executables for target browsers (ChromeDriver, GeckoDriver, etc.)
+- IDE (Eclipse, IntelliJ IDEA, etc.)
+
+## Getting Started
+- _Clone the repository:_ `git clone https://github.com/your/repository.git`
+- _Import the project:_ Import the project into your preferred IDE.
+- _Install dependencies:_ Execute `mvn clean install` to install all project dependencies.
+- _Update configuration:_ Update config.properties file with necessary configurations like browser type, URL, etc.
+- _Run tests:_ Execute Cucumber feature files using TestNG or your IDE's test runner.
+
+## Project Structure
+```
+├── README.md
+├── Webdriver-Framework.iml
+├── pom.xml
+├── src
+│   ├── main
+│   │   └── resources
+│   │       └── log4j2.xml
+│   └── test
+│       ├── java
+│       │   └── awesomecucumber
+│       │       ├── apis
+│       │       ├── constants
+│       │       ├── context
+│       │       ├── customtype
+│       │       ├── domainobjects
+│       │       ├── enums
+│       │       ├── factory
+│       │       ├── hooks
+│       │       ├── java_Mail_API
+│       │       ├── pages
+│       │       ├── runners
+│       │       ├── stepdefinitions
+│       │       └── utils
+│       └── resources
+│           ├── config
+│           │   ├── int_config.properties
+│           │   ├── prod_config.properties
+│           │   ├── qa_config.properties
+│           │   └── stg_config.properties
+│           ├── cucumber.properties
+│           ├── features
+│           │   └── login_to_app.feature
+│           └── products.json
+└── testng
+    └── testng.xml
+```
+## Running Tests
+- _Using TestNG:_ Right-click on test suite XML file or test class, then select `"Run As" > "TestNG Test"`.
+- _Using Cucumber:_ Execute feature files using Cucumber test runner.
+
+## Reporting
+>Test execution reports are generated in HTML format using ExtentReports or Cucumber's built-in >reporting. Reports are saved under the target directory.
+
+## Installation
+```sh
+$ brew install allure
+```
+
+## Plugins
+> To identify the locatoers of the web-elements, install chrome browser expension `ChroPath`
+
+
+------------------------------------------------------------
+------------------------------------------------------------
+
+
+
+
+
 # Test-Framework
 With further updates - This project is designed and developed with the help of -
 1. Udemy course (OmPrakash Chavan - Cucumber BDD Masterclass with Selenium WebDriver & Java) - 
